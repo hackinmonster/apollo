@@ -1,0 +1,329 @@
+[0.000000] (-) TimerEvent: {}
+[0.003145] (scout_mini_base) JobQueued: {'identifier': 'scout_mini_base', 'dependencies': OrderedDict()}
+[0.005266] (scout_mini_description) JobQueued: {'identifier': 'scout_mini_description', 'dependencies': OrderedDict()}
+[0.007805] (scout_mini_hardware) JobQueued: {'identifier': 'scout_mini_hardware', 'dependencies': OrderedDict()}
+[0.008877] (scout_mini_msgs) JobQueued: {'identifier': 'scout_mini_msgs', 'dependencies': OrderedDict()}
+[0.010428] (scout_mini_ros2) JobQueued: {'identifier': 'scout_mini_ros2', 'dependencies': OrderedDict([('scout_mini_base', '/my_code/ros_ws/install/scout_mini_base'), ('scout_mini_description', '/my_code/ros_ws/install/scout_mini_description'), ('scout_mini_hardware', '/my_code/ros_ws/install/scout_mini_hardware'), ('scout_mini_msgs', '/my_code/ros_ws/install/scout_mini_msgs')])}
+[0.011536] (scout_mini_base) JobStarted: {'identifier': 'scout_mini_base'}
+[0.068630] (scout_mini_description) JobStarted: {'identifier': 'scout_mini_description'}
+[0.091315] (-) TimerEvent: {}
+[0.127037] (scout_mini_hardware) JobStarted: {'identifier': 'scout_mini_hardware'}
+[0.177488] (scout_mini_msgs) JobStarted: {'identifier': 'scout_mini_msgs'}
+[0.191386] (-) TimerEvent: {}
+[0.220628] (scout_mini_base) JobProgress: {'identifier': 'scout_mini_base', 'progress': 'cmake'}
+[0.291523] (-) TimerEvent: {}
+[0.346105] (scout_mini_base) Command: {'cmd': ['/usr/bin/cmake', '/my_code/ros_ws/src/scout_mini_base', '-DCMAKE_INSTALL_PREFIX=/my_code/ros_ws/install/scout_mini_base'], 'cwd': '/my_code/ros_ws/build/scout_mini_base', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/my_code/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-31c6b79f-3621-44cb-99c4-d7889caf8698.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-346d56bb-6798-41af-8a5b-2abaf92253cd.sock'), ('COLCON_PREFIX_PATH', '/my_code/scout_mini_description/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-08c42db1-9379-4c2a-a029-f7a00e98c892.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-fc30768b6b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/my_code/ros_ws/build/scout_mini_base'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble')]), 'shell': False}
+[0.390614] (scout_mini_description) JobProgress: {'identifier': 'scout_mini_description', 'progress': 'cmake'}
+[0.391578] (-) TimerEvent: {}
+[0.421883] (scout_mini_description) JobProgress: {'identifier': 'scout_mini_description', 'progress': 'build'}
+[0.452765] (scout_mini_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/my_code/ros_ws/build/scout_mini_description', '--', '-j20', '-l20'], 'cwd': '/my_code/ros_ws/build/scout_mini_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/my_code/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-31c6b79f-3621-44cb-99c4-d7889caf8698.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-346d56bb-6798-41af-8a5b-2abaf92253cd.sock'), ('COLCON_PREFIX_PATH', '/my_code/scout_mini_description/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-08c42db1-9379-4c2a-a029-f7a00e98c892.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-fc30768b6b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/my_code/ros_ws/build/scout_mini_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble')]), 'shell': False}
+[0.483800] (scout_mini_hardware) JobProgress: {'identifier': 'scout_mini_hardware', 'progress': 'cmake'}
+[0.491608] (-) TimerEvent: {}
+[0.535419] (scout_mini_hardware) Command: {'cmd': ['/usr/bin/cmake', '/my_code/ros_ws/src/scout_mini_hardware', '-DCMAKE_INSTALL_PREFIX=/my_code/ros_ws/install/scout_mini_hardware'], 'cwd': '/my_code/ros_ws/build/scout_mini_hardware', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/my_code/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-31c6b79f-3621-44cb-99c4-d7889caf8698.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-346d56bb-6798-41af-8a5b-2abaf92253cd.sock'), ('COLCON_PREFIX_PATH', '/my_code/scout_mini_description/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-08c42db1-9379-4c2a-a029-f7a00e98c892.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-fc30768b6b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/my_code/ros_ws/build/scout_mini_hardware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble')]), 'shell': False}
+[0.577044] (scout_mini_msgs) JobProgress: {'identifier': 'scout_mini_msgs', 'progress': 'cmake'}
+[0.591680] (-) TimerEvent: {}
+[0.608092] (scout_mini_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.612110] (scout_mini_msgs) JobProgress: {'identifier': 'scout_mini_msgs', 'progress': 'build'}
+[0.621088] (scout_mini_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/my_code/ros_ws/build/scout_mini_msgs', '--', '-j20', '-l20'], 'cwd': '/my_code/ros_ws/build/scout_mini_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/my_code/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-31c6b79f-3621-44cb-99c4-d7889caf8698.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-346d56bb-6798-41af-8a5b-2abaf92253cd.sock'), ('COLCON_PREFIX_PATH', '/my_code/scout_mini_description/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-08c42db1-9379-4c2a-a029-f7a00e98c892.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-fc30768b6b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/my_code/ros_ws/build/scout_mini_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble')]), 'shell': False}
+[0.691769] (-) TimerEvent: {}
+[0.785973] (scout_mini_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.791871] (-) TimerEvent: {}
+[0.805284] (scout_mini_base) StdoutLine: {'line': b'-- Found ros2_control: 2.48.0 (/opt/ros/humble/share/ros2_control/cmake)\n'}
+[0.884063] (scout_mini_base) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (find_package):\n'}
+[0.886077] (scout_mini_base) StderrLine: {'line': b'  By not providing "Findros2_controllers.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.887398] (scout_mini_base) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.889961] (scout_mini_base) StderrLine: {'line': b'  "ros2_controllers", but CMake did not find one.\n'}
+[0.891723] (scout_mini_base) StderrLine: {'line': b'\n'}
+[0.894494] (-) TimerEvent: {}
+[0.896139] (scout_mini_base) StderrLine: {'line': b'  Could not find a package configuration file provided by "ros2_controllers"\n'}
+[0.899465] (scout_mini_base) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.902519] (scout_mini_base) StderrLine: {'line': b'\n'}
+[0.904463] (scout_mini_base) StderrLine: {'line': b'    ros2_controllersConfig.cmake\n'}
+[0.905531] (scout_mini_base) StderrLine: {'line': b'    ros2_controllers-config.cmake\n'}
+[0.907225] (scout_mini_base) StderrLine: {'line': b'\n'}
+[0.909291] (scout_mini_base) StderrLine: {'line': b'  Add the installation prefix of "ros2_controllers" to CMAKE_PREFIX_PATH or\n'}
+[0.910681] (scout_mini_base) StderrLine: {'line': b'  set "ros2_controllers_DIR" to a directory containing one of the above\n'}
+[0.912596] (scout_mini_base) StderrLine: {'line': b'  files.  If "ros2_controllers" provides a separate development package or\n'}
+[0.914364] (scout_mini_base) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[0.915494] (scout_mini_base) StderrLine: {'line': b'\n'}
+[0.917537] (scout_mini_base) StderrLine: {'line': b'\x1b[0m\n'}
+[0.919716] (scout_mini_base) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.921366] (scout_mini_base) StdoutLine: {'line': b'See also "/my_code/ros_ws/build/scout_mini_base/CMakeFiles/CMakeOutput.log".\n'}
+[0.937682] (scout_mini_base) CommandEnded: {'returncode': 1}
+[0.985906] (scout_mini_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.994549] (-) TimerEvent: {}
+[1.040198] (scout_mini_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.094613] (-) TimerEvent: {}
+[1.103007] (scout_mini_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.110971] (scout_mini_description) StdoutLine: {'line': b'-- Found rviz2: 11.2.16 (/opt/ros/humble/share/rviz2/cmake)\n'}
+[1.113222] (scout_mini_description) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[1.118787] (scout_mini_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_scout_mini_msgs\n'}
+[1.121321] (scout_mini_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.123953] (scout_mini_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.126841] (scout_mini_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.139195] (scout_mini_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.151926] (scout_mini_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.174050] (scout_mini_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.194223] (scout_mini_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.196540] (-) TimerEvent: {}
+[1.197061] (scout_mini_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.231883] (scout_mini_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.241737] (scout_mini_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.270889] (scout_mini_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.284609] (scout_mini_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.287462] (scout_mini_base) JobEnded: {'identifier': 'scout_mini_base', 'rc': 1}
+[1.296953] (-) TimerEvent: {}
+[1.316922] (scout_mini_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.322749] (scout_mini_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.346686] (scout_mini_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.397034] (-) TimerEvent: {}
+[1.420879] (scout_mini_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.422387] (scout_mini_msgs) StdoutLine: {'line': b'creating scout_mini_msgs.egg-info\n'}
+[1.425676] (scout_mini_msgs) StdoutLine: {'line': b'writing scout_mini_msgs.egg-info/PKG-INFO\n'}
+[1.432500] (scout_mini_msgs) StdoutLine: {'line': b'writing dependency_links to scout_mini_msgs.egg-info/dependency_links.txt\n'}
+[1.442406] (scout_mini_msgs) StdoutLine: {'line': b'writing top-level names to scout_mini_msgs.egg-info/top_level.txt\n'}
+[1.447356] (scout_mini_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.448738] (scout_mini_msgs) StdoutLine: {'line': b"writing manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'\n"}
+[1.474304] (scout_mini_msgs) StdoutLine: {'line': b"reading manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'\n"}
+[1.497136] (-) TimerEvent: {}
+[1.515171] (scout_mini_msgs) StdoutLine: {'line': b"writing manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'\n"}
+[1.542422] (scout_mini_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.550634] (scout_mini_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_scout_mini_msgs_egg\n'}
+[1.597208] (-) TimerEvent: {}
+[1.697757] (-) TimerEvent: {}
+[1.798795] (-) TimerEvent: {}
+[1.899385] (-) TimerEvent: {}
+[2.000389] (-) TimerEvent: {}
+[2.081510] (scout_mini_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.100437] (-) TimerEvent: {}
+[2.200930] (-) TimerEvent: {}
+[2.301658] (-) TimerEvent: {}
+[2.402598] (-) TimerEvent: {}
+[2.453664] (scout_mini_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.492996] (scout_mini_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.494601] (scout_mini_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.496268] (scout_mini_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.502646] (-) TimerEvent: {}
+[2.588285] (scout_mini_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.595578] (scout_mini_msgs) StdoutLine: {'line': b'[  2%] Built target scout_mini_msgs__cpp\n'}
+[2.602672] (-) TimerEvent: {}
+[2.609876] (scout_mini_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.693968] (scout_mini_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.696912] (scout_mini_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.702730] (-) TimerEvent: {}
+[2.729133] (scout_mini_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.802806] (-) TimerEvent: {}
+[2.863527] (scout_mini_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o\x1b[0m\n'}
+[2.872248] (scout_mini_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o\x1b[0m\n'}
+[2.882505] (scout_mini_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o\x1b[0m\n'}
+[2.895097] (scout_mini_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o\x1b[0m\n'}
+[2.902862] (-) TimerEvent: {}
+[2.904345] (scout_mini_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o\x1b[0m\n'}
+[2.915568] (scout_mini_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o\x1b[0m\n'}
+[2.974641] (scout_mini_description) StdoutLine: {'line': b'-- Build files have been written to: /my_code/ros_ws/build/scout_mini_description\n'}
+[3.002971] (-) TimerEvent: {}
+[3.013955] (scout_mini_description) JobEnded: {'identifier': 'scout_mini_description', 'rc': 'SIGINT'}
+[3.103103] (-) TimerEvent: {}
+[3.123548] (scout_mini_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libscout_mini_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.203217] (-) TimerEvent: {}
+[3.303731] (-) TimerEvent: {}
+[3.404349] (-) TimerEvent: {}
+[3.423227] (scout_mini_msgs) StdoutLine: {'line': b'[ 16%] Built target scout_mini_msgs__rosidl_generator_c\n'}
+[3.452300] (scout_mini_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/driver_state__type_support.cpp.o\x1b[0m\n'}
+[3.464898] (scout_mini_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/fault_state__type_support.cpp.o\x1b[0m\n'}
+[3.477942] (scout_mini_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/light_command__type_support.cpp.o\x1b[0m\n'}
+[3.488800] (scout_mini_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/light_state__type_support.cpp.o\x1b[0m\n'}
+[3.497663] (scout_mini_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[3.500753] (scout_mini_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/robot_state__type_support.cpp.o\x1b[0m\n'}
+[3.504456] (-) TimerEvent: {}
+[3.510825] (scout_mini_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.520262] (scout_mini_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.522858] (scout_mini_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.524991] (scout_mini_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.563588] (scout_mini_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.565585] (scout_mini_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.567230] (scout_mini_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.604557] (-) TimerEvent: {}
+[3.686081] (scout_mini_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.704667] (-) TimerEvent: {}
+[3.792081] (scout_mini_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/driver_state__type_support.cpp.o\x1b[0m\n'}
+[3.803126] (scout_mini_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/fault_state__type_support.cpp.o\x1b[0m\n'}
+[3.805269] (-) TimerEvent: {}
+[3.814670] (scout_mini_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/light_command__type_support.cpp.o\x1b[0m\n'}
+[3.824653] (scout_mini_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/light_state__type_support.cpp.o\x1b[0m\n'}
+[3.840096] (scout_mini_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/motor_state__type_support.cpp.o\x1b[0m\n'}
+[3.853032] (scout_mini_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/robot_state__type_support.cpp.o\x1b[0m\n'}
+[3.889879] (scout_mini_hardware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.905351] (-) TimerEvent: {}
+[4.006428] (-) TimerEvent: {}
+[4.037041] (scout_mini_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/driver_state__type_support.cpp.o\x1b[0m\n'}
+[4.051292] (scout_mini_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/fault_state__type_support.cpp.o\x1b[0m\n'}
+[4.069193] (scout_mini_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/light_command__type_support.cpp.o\x1b[0m\n'}
+[4.091442] (scout_mini_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/light_state__type_support.cpp.o\x1b[0m\n'}
+[4.106619] (-) TimerEvent: {}
+[4.107841] (scout_mini_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o\x1b[0m\n'}
+[4.195931] (scout_mini_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o\x1b[0m\n'}
+[4.206719] (-) TimerEvent: {}
+[4.226656] (scout_mini_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.264227] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.306825] (-) TimerEvent: {}
+[4.330218] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.340988] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.351965] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.373060] (scout_mini_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.400210] (scout_mini_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.406925] (-) TimerEvent: {}
+[4.463659] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.469220] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.507028] (-) TimerEvent: {}
+[4.576806] (scout_mini_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/driver_state__type_support.cpp.o\x1b[0m\n'}
+[4.588341] (scout_mini_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/fault_state__type_support.cpp.o\x1b[0m\n'}
+[4.596238] (scout_mini_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.598834] (scout_mini_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/light_command__type_support.cpp.o\x1b[0m\n'}
+[4.607169] (-) TimerEvent: {}
+[4.613756] (scout_mini_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/light_state__type_support.cpp.o\x1b[0m\n'}
+[4.632367] (scout_mini_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[4.678255] (scout_mini_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.707292] (-) TimerEvent: {}
+[4.717250] (scout_mini_msgs) StdoutLine: {'line': b'[ 54%] Built target scout_mini_msgs__rosidl_typesupport_cpp\n'}
+[4.764254] (scout_mini_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.792542] (scout_mini_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/robot_state__type_support.cpp.o\x1b[0m\n'}
+[4.807475] (-) TimerEvent: {}
+[4.902299] (scout_mini_hardware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.907636] (-) TimerEvent: {}
+[5.008296] (-) TimerEvent: {}
+[5.053903] (scout_mini_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.108427] (-) TimerEvent: {}
+[5.123841] (scout_mini_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.208522] (-) TimerEvent: {}
+[5.239763] (scout_mini_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/driver_state__type_support_c.cpp.o\x1b[0m\n'}
+[5.244780] (scout_mini_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/driver_state__type_support.c.o\x1b[0m\n'}
+[5.258583] (scout_mini_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/fault_state__type_support_c.cpp.o\x1b[0m\n'}
+[5.268708] (scout_mini_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/fault_state__type_support.c.o\x1b[0m\n'}
+[5.274282] (scout_mini_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/light_command__type_support_c.cpp.o\x1b[0m\n'}
+[5.289206] (scout_mini_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/light_command__type_support.c.o\x1b[0m\n'}
+[5.301535] (scout_mini_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/light_state__type_support_c.cpp.o\x1b[0m\n'}
+[5.304354] (scout_mini_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/light_state__type_support.c.o\x1b[0m\n'}
+[5.309128] (-) TimerEvent: {}
+[5.314858] (scout_mini_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/motor_state__type_support_c.cpp.o\x1b[0m\n'}
+[5.324520] (scout_mini_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/motor_state__type_support.c.o\x1b[0m\n'}
+[5.331300] (scout_mini_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/robot_state__type_support_c.cpp.o\x1b[0m\n'}
+[5.350546] (scout_mini_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/robot_state__type_support.c.o\x1b[0m\n'}
+[5.409227] (-) TimerEvent: {}
+[5.481678] (scout_mini_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.509317] (-) TimerEvent: {}
+[5.610020] (-) TimerEvent: {}
+[5.709630] (scout_mini_msgs) StdoutLine: {'line': b'[ 77%] Built target scout_mini_msgs__rosidl_typesupport_c\n'}
+[5.712281] (-) TimerEvent: {}
+[5.813193] (-) TimerEvent: {}
+[5.914786] (-) TimerEvent: {}
+[5.924457] (scout_mini_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library libscout_mini_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.952013] (scout_mini_msgs) StdoutLine: {'line': b'[ 78%] Built target scout_mini_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.014881] (-) TimerEvent: {}
+[6.115495] (-) TimerEvent: {}
+[6.173283] (scout_mini_hardware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.194777] (scout_mini_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.215596] (-) TimerEvent: {}
+[6.274801] (scout_mini_msgs) StdoutLine: {'line': b'[ 78%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.315701] (-) TimerEvent: {}
+[6.341326] (scout_mini_msgs) StdoutLine: {'line': b'[ 78%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c\n'}
+[6.354456] (scout_mini_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.415792] (-) TimerEvent: {}
+[6.516502] (-) TimerEvent: {}
+[6.617226] (-) TimerEvent: {}
+[6.717659] (-) TimerEvent: {}
+[6.796630] (scout_mini_msgs) StdoutLine: {'line': b'[ 80%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.817768] (-) TimerEvent: {}
+[6.873887] (scout_mini_msgs) StdoutLine: {'line': b'[ 80%] Built target scout_mini_msgs\n'}
+[6.917860] (-) TimerEvent: {}
+[6.966312] (scout_mini_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.977485] (scout_mini_hardware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.017971] (-) TimerEvent: {}
+[7.019207] (scout_mini_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[7.052773] (scout_mini_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.118061] (-) TimerEvent: {}
+[7.162128] (scout_mini_hardware) StdoutLine: {'line': b'-- Found realtime_tools: 2.11.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[7.180683] (scout_mini_hardware) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:27 (find_package):\n'}
+[7.184067] (scout_mini_hardware) StderrLine: {'line': b'  By not providing "Findcan_msgs.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[7.185828] (scout_mini_hardware) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "can_msgs",\n'}
+[7.186768] (scout_mini_hardware) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[7.188427] (scout_mini_hardware) StderrLine: {'line': b'\n'}
+[7.189750] (scout_mini_hardware) StderrLine: {'line': b'  Could not find a package configuration file provided by "can_msgs" with any\n'}
+[7.190812] (scout_mini_hardware) StderrLine: {'line': b'  of the following names:\n'}
+[7.191794] (scout_mini_hardware) StderrLine: {'line': b'\n'}
+[7.193040] (scout_mini_hardware) StderrLine: {'line': b'    can_msgsConfig.cmake\n'}
+[7.194179] (scout_mini_hardware) StderrLine: {'line': b'    can_msgs-config.cmake\n'}
+[7.195645] (scout_mini_hardware) StderrLine: {'line': b'\n'}
+[7.197622] (scout_mini_hardware) StderrLine: {'line': b'  Add the installation prefix of "can_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[7.201083] (scout_mini_hardware) StderrLine: {'line': b'  "can_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[7.203069] (scout_mini_hardware) StderrLine: {'line': b'  "can_msgs" provides a separate development package or SDK, be sure it has\n'}
+[7.204871] (scout_mini_hardware) StderrLine: {'line': b'  been installed.\n'}
+[7.206014] (scout_mini_hardware) StderrLine: {'line': b'\n'}
+[7.206838] (scout_mini_hardware) StderrLine: {'line': b'\x1b[0m\n'}
+[7.207558] (scout_mini_hardware) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.208252] (scout_mini_hardware) StdoutLine: {'line': b'See also "/my_code/ros_ws/build/scout_mini_hardware/CMakeFiles/CMakeOutput.log".\n'}
+[7.212086] (scout_mini_hardware) JobEnded: {'identifier': 'scout_mini_hardware', 'rc': 'SIGINT'}
+[7.222843] (-) TimerEvent: {}
+[7.323622] (-) TimerEvent: {}
+[7.424254] (-) TimerEvent: {}
+[7.525079] (-) TimerEvent: {}
+[7.625739] (-) TimerEvent: {}
+[7.726588] (-) TimerEvent: {}
+[7.827405] (-) TimerEvent: {}
+[7.927981] (-) TimerEvent: {}
+[8.028545] (-) TimerEvent: {}
+[8.129242] (-) TimerEvent: {}
+[8.229842] (-) TimerEvent: {}
+[8.259323] (scout_mini_msgs) StdoutLine: {'line': b'[ 81%] Built target scout_mini_msgs__py\n'}
+[8.329954] (-) TimerEvent: {}
+[8.398646] (scout_mini_msgs) StderrLine: {'line': b"gmake[2]: Warning: File 'rosidl_generator_py/scout_mini_msgs/msg/_driver_state_s.c' has modification time 0.14 s in the future\n"}
+[8.428418] (scout_mini_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_driver_state_s.c.o\x1b[0m\n'}
+[8.430638] (-) TimerEvent: {}
+[8.438888] (scout_mini_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_fault_state_s.c.o\x1b[0m\n'}
+[8.452512] (scout_mini_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_light_command_s.c.o\x1b[0m\n'}
+[8.462884] (scout_mini_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_light_state_s.c.o\x1b[0m\n'}
+[8.479298] (scout_mini_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_motor_state_s.c.o\x1b[0m\n'}
+[8.486831] (scout_mini_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_robot_state_s.c.o\x1b[0m\n'}
+[8.530739] (-) TimerEvent: {}
+[8.631284] (-) TimerEvent: {}
+[8.731854] (-) TimerEvent: {}
+[8.832365] (-) TimerEvent: {}
+[8.900298] (scout_mini_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/libscout_mini_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.932430] (-) TimerEvent: {}
+[9.032972] (-) TimerEvent: {}
+[9.133564] (-) TimerEvent: {}
+[9.244257] (-) TimerEvent: {}
+[9.245958] (scout_mini_msgs) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[9.291522] (scout_mini_msgs) StdoutLine: {'line': b'[ 91%] Built target scout_mini_msgs__rosidl_generator_py\n'}
+[9.344344] (-) TimerEvent: {}
+[9.392198] (scout_mini_msgs) StderrLine: {'line': b"gmake[2]: Warning: File 'rosidl_generator_py/scout_mini_msgs/libscout_mini_msgs__rosidl_generator_py.so' has modification time 0.26 s in the future\n"}
+[9.393783] (scout_mini_msgs) StderrLine: {'line': b"gmake[2]: Warning: File 'rosidl_generator_py/scout_mini_msgs/libscout_mini_msgs__rosidl_generator_py.so' has modification time 0.26 s in the future\n"}
+[9.394944] (scout_mini_msgs) StderrLine: {'line': b"gmake[2]: Warning: File 'rosidl_generator_py/scout_mini_msgs/libscout_mini_msgs__rosidl_generator_py.so' has modification time 0.26 s in the future\n"}
+[9.409679] (scout_mini_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.411328] (scout_mini_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.413203] (scout_mini_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.444441] (-) TimerEvent: {}
+[9.546054] (-) TimerEvent: {}
+[9.646742] (-) TimerEvent: {}
+[9.747843] (-) TimerEvent: {}
+[9.848513] (-) TimerEvent: {}
+[9.949651] (-) TimerEvent: {}
+[10.050596] (-) TimerEvent: {}
+[10.078894] (scout_mini_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.150721] (-) TimerEvent: {}
+[10.152537] (scout_mini_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.159192] (scout_mini_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.250796] (-) TimerEvent: {}
+[10.278106] (scout_mini_msgs) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[10.296087] (scout_mini_msgs) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[10.298990] (scout_mini_msgs) StdoutLine: {'line': b'[100%] Built target scout_mini_msgs__rosidl_typesupport_c__pyext\n'}
+[10.311245] (scout_mini_msgs) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[10.314771] (scout_mini_msgs) StdoutLine: {'line': b'[100%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[10.330469] (scout_mini_msgs) StdoutLine: {'line': b'[100%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.350900] (-) TimerEvent: {}
+[10.451450] (-) TimerEvent: {}
+[10.551997] (-) TimerEvent: {}
+[10.652665] (-) TimerEvent: {}
+[10.719823] (scout_mini_msgs) JobEnded: {'identifier': 'scout_mini_msgs', 'rc': 'SIGINT'}
+[10.744650] (scout_mini_ros2) JobSkipped: {'identifier': 'scout_mini_ros2'}
+[10.744975] (-) EventReactorShutdown: {}

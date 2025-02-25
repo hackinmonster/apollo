@@ -1,0 +1,35 @@
+[0.267s] Invoking command in '/my_code/ros_ws/build/scout_mini_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /my_code/ros_ws/src/scout_mini_hardware -DCMAKE_INSTALL_PREFIX=/my_code/ros_ws/install/scout_mini_hardware
+[0.457s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.665s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.683s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.687s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.689s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.743s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.748s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.287s] -- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.457s] -- Found realtime_tools: 2.11.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.462s] -- Found can_msgs: 2.0.0 (/opt/ros/humble/share/can_msgs/cmake)
+[1.472s] -- Found ros2_socketcan: 1.3.0 (/opt/ros/humble/share/ros2_socketcan/cmake)
+[1.675s] [31mCMake Error at CMakeLists.txt:27 (find_package):
+[1.680s]   By not providing "Findscout_mini_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.690s]   project has asked CMake to find a package configuration file provided by
+[1.697s]   "scout_mini_msgs", but CMake did not find one.
+[1.705s] 
+[1.712s]   Could not find a package configuration file provided by "scout_mini_msgs"
+[1.719s]   with any of the following names:
+[1.727s] 
+[1.735s]     scout_mini_msgsConfig.cmake
+[1.740s]     scout_mini_msgs-config.cmake
+[1.748s] 
+[1.754s]   Add the installation prefix of "scout_mini_msgs" to CMAKE_PREFIX_PATH or
+[1.763s]   set "scout_mini_msgs_DIR" to a directory containing one of the above files.
+[1.774s]   If "scout_mini_msgs" provides a separate development package or SDK, be
+[1.782s]   sure it has been installed.
+[1.789s] 
+[1.799s] [0m
+[1.806s] -- Configuring incomplete, errors occurred!
+[1.818s] See also "/my_code/ros_ws/build/scout_mini_hardware/CMakeFiles/CMakeOutput.log".
+[1.822s] Invoked command in '/my_code/ros_ws/build/scout_mini_hardware' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /my_code/ros_ws/src/scout_mini_hardware -DCMAKE_INSTALL_PREFIX=/my_code/ros_ws/install/scout_mini_hardware

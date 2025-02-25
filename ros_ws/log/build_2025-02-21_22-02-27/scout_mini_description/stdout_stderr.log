@@ -1,0 +1,10 @@
+-- Install configuration: ""
+-- Up-to-date: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/launch
+-- Up-to-date: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/description_launch.py
+-- Up-to-date: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/rviz2_launch.py
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/my_code/ros_ws/src/scout_mini_description/meshes": No such file or
+  directory.
+
+[0m

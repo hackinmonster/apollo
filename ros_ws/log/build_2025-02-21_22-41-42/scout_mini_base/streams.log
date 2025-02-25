@@ -1,0 +1,23 @@
+[0.169s] Invoking command in '/my_code/ros_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /my_code/ros_ws/src/scout_mini_base -DCMAKE_INSTALL_PREFIX=/my_code/ros_ws/install/scout_mini_base
+[0.430s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.662s] -- Found ros2_control: 2.48.0 (/opt/ros/humble/share/ros2_control/cmake)
+[0.776s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.778s]   By not providing "Findros2_controllers.cmake" in CMAKE_MODULE_PATH this
+[0.779s]   project has asked CMake to find a package configuration file provided by
+[0.781s]   "ros2_controllers", but CMake did not find one.
+[0.783s] 
+[0.786s]   Could not find a package configuration file provided by "ros2_controllers"
+[0.788s]   with any of the following names:
+[0.790s] 
+[0.792s]     ros2_controllersConfig.cmake
+[0.794s]     ros2_controllers-config.cmake
+[0.795s] 
+[0.797s]   Add the installation prefix of "ros2_controllers" to CMAKE_PREFIX_PATH or
+[0.799s]   set "ros2_controllers_DIR" to a directory containing one of the above
+[0.801s]   files.  If "ros2_controllers" provides a separate development package or
+[0.803s]   SDK, be sure it has been installed.
+[0.805s] 
+[0.806s] [0m
+[0.808s] -- Configuring incomplete, errors occurred!
+[0.811s] See also "/my_code/ros_ws/build/scout_mini_base/CMakeFiles/CMakeOutput.log".
+[0.822s] Invoked command in '/my_code/ros_ws/build/scout_mini_base' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /my_code/ros_ws/src/scout_mini_base -DCMAKE_INSTALL_PREFIX=/my_code/ros_ws/install/scout_mini_base

@@ -1,0 +1,17 @@
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/config/scout_mini.yaml
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/launch/base_launch.py
+/my_code/ros_ws/install/scout_mini_base/share/ament_index/resource_index/package_run_dependencies/scout_mini_base
+/my_code/ros_ws/install/scout_mini_base/share/ament_index/resource_index/parent_prefix_path/scout_mini_base
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/ament_prefix_path.sh
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/ament_prefix_path.dsv
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/path.sh
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/path.dsv
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.bash
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.sh
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.zsh
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.dsv
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/package.dsv
+/my_code/ros_ws/install/scout_mini_base/share/ament_index/resource_index/packages/scout_mini_base
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/cmake/scout_mini_baseConfig.cmake
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/cmake/scout_mini_baseConfig-version.cmake
+/my_code/ros_ws/install/scout_mini_base/share/scout_mini_base/package.xml

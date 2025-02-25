@@ -1,0 +1,1 @@
+Invoking command in '/my_code/ros_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /my_code/ros_ws/src/scout_mini_base -DCMAKE_INSTALL_PREFIX=/my_code/ros_ws/install/scout_mini_base

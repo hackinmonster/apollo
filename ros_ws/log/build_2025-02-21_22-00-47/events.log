@@ -1,0 +1,272 @@
+[0.000000] (-) TimerEvent: {}
+[0.000340] (scout_mini_base) JobQueued: {'identifier': 'scout_mini_base', 'dependencies': OrderedDict()}
+[0.001393] (scout_mini_description) JobQueued: {'identifier': 'scout_mini_description', 'dependencies': OrderedDict()}
+[0.001702] (scout_mini_msgs) JobQueued: {'identifier': 'scout_mini_msgs', 'dependencies': OrderedDict()}
+[0.001837] (scout_mini_ros2) JobQueued: {'identifier': 'scout_mini_ros2', 'dependencies': OrderedDict([('scout_mini_base', '/my_code/ros_ws/install/scout_mini_base'), ('scout_mini_description', '/my_code/ros_ws/install/scout_mini_description'), ('scout_mini_msgs', '/my_code/ros_ws/install/scout_mini_msgs')])}
+[0.005746] (scout_mini_base) JobStarted: {'identifier': 'scout_mini_base'}
+[0.027593] (scout_mini_description) JobStarted: {'identifier': 'scout_mini_description'}
+[0.039059] (scout_mini_msgs) JobStarted: {'identifier': 'scout_mini_msgs'}
+[0.057006] (scout_mini_base) JobProgress: {'identifier': 'scout_mini_base', 'progress': 'cmake'}
+[0.083499] (scout_mini_base) Command: {'cmd': ['/usr/bin/cmake', '/my_code/ros_ws/src/scout_mini_base', '-DCMAKE_INSTALL_PREFIX=/my_code/ros_ws/install/scout_mini_base'], 'cwd': '/my_code/ros_ws/build/scout_mini_base', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/my_code/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-31c6b79f-3621-44cb-99c4-d7889caf8698.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-346d56bb-6798-41af-8a5b-2abaf92253cd.sock'), ('COLCON_PREFIX_PATH', '/my_code/scout_mini_description/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-08c42db1-9379-4c2a-a029-f7a00e98c892.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-fc30768b6b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/my_code/ros_ws/build/scout_mini_base'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble')]), 'shell': False}
+[0.103473] (-) TimerEvent: {}
+[0.104223] (scout_mini_description) JobProgress: {'identifier': 'scout_mini_description', 'progress': 'cmake'}
+[0.136594] (scout_mini_description) Command: {'cmd': ['/usr/bin/cmake', '/my_code/ros_ws/src/scout_mini_description', '-DCMAKE_INSTALL_PREFIX=/my_code/ros_ws/install/scout_mini_description'], 'cwd': '/my_code/ros_ws/build/scout_mini_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/my_code/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-31c6b79f-3621-44cb-99c4-d7889caf8698.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-346d56bb-6798-41af-8a5b-2abaf92253cd.sock'), ('COLCON_PREFIX_PATH', '/my_code/scout_mini_description/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-08c42db1-9379-4c2a-a029-f7a00e98c892.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-fc30768b6b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/my_code/ros_ws/build/scout_mini_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble')]), 'shell': False}
+[0.158646] (scout_mini_msgs) JobProgress: {'identifier': 'scout_mini_msgs', 'progress': 'cmake'}
+[0.203600] (-) TimerEvent: {}
+[0.218527] (scout_mini_msgs) Command: {'cmd': ['/usr/bin/cmake', '/my_code/ros_ws/src/scout_mini_msgs', '-DCMAKE_INSTALL_PREFIX=/my_code/ros_ws/install/scout_mini_msgs'], 'cwd': '/my_code/ros_ws/build/scout_mini_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/my_code/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-31c6b79f-3621-44cb-99c4-d7889caf8698.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-346d56bb-6798-41af-8a5b-2abaf92253cd.sock'), ('COLCON_PREFIX_PATH', '/my_code/scout_mini_description/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-08c42db1-9379-4c2a-a029-f7a00e98c892.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-fc30768b6b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/my_code/ros_ws/build/scout_mini_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/my_code/scout_mini_description/install/scout_mini_description:/opt/ros/humble')]), 'shell': False}
+[0.303678] (-) TimerEvent: {}
+[0.404113] (-) TimerEvent: {}
+[0.504522] (-) TimerEvent: {}
+[0.544422] (scout_mini_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.604626] (-) TimerEvent: {}
+[0.636141] (scout_mini_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.666679] (scout_mini_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.704731] (-) TimerEvent: {}
+[0.805315] (-) TimerEvent: {}
+[0.895199] (scout_mini_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.905421] (-) TimerEvent: {}
+[0.955216] (scout_mini_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.971874] (scout_mini_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.974711] (scout_mini_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.005528] (-) TimerEvent: {}
+[1.027906] (scout_mini_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.055882] (scout_mini_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.105624] (-) TimerEvent: {}
+[1.206598] (-) TimerEvent: {}
+[1.307529] (-) TimerEvent: {}
+[1.408526] (-) TimerEvent: {}
+[1.509211] (-) TimerEvent: {}
+[1.611329] (-) TimerEvent: {}
+[1.714073] (-) TimerEvent: {}
+[1.815254] (-) TimerEvent: {}
+[1.916542] (-) TimerEvent: {}
+[2.017479] (-) TimerEvent: {}
+[2.118196] (-) TimerEvent: {}
+[2.209758] (scout_mini_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.218234] (-) TimerEvent: {}
+[2.277292] (scout_mini_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.281746] (scout_mini_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.284671] (scout_mini_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.318397] (-) TimerEvent: {}
+[2.342500] (scout_mini_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.371275] (scout_mini_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.416328] (scout_mini_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.420044] (-) TimerEvent: {}
+[2.420685] (scout_mini_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.423358] (scout_mini_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.439119] (scout_mini_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.441135] (scout_mini_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.443157] (scout_mini_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.454559] (scout_mini_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.520121] (-) TimerEvent: {}
+[2.522060] (scout_mini_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.546156] (scout_mini_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.620256] (-) TimerEvent: {}
+[2.720950] (-) TimerEvent: {}
+[2.821533] (-) TimerEvent: {}
+[2.922394] (-) TimerEvent: {}
+[3.023692] (-) TimerEvent: {}
+[3.124260] (-) TimerEvent: {}
+[3.224875] (-) TimerEvent: {}
+[3.327620] (-) TimerEvent: {}
+[3.428551] (-) TimerEvent: {}
+[3.478964] (scout_mini_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.528682] (-) TimerEvent: {}
+[3.542256] (scout_mini_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.544498] (scout_mini_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.548152] (scout_mini_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.588935] (scout_mini_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.593844] (scout_mini_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.628765] (-) TimerEvent: {}
+[3.638447] (scout_mini_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.639858] (scout_mini_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.641792] (scout_mini_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.643545] (scout_mini_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.646480] (scout_mini_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.648317] (scout_mini_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.659975] (scout_mini_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.706517] (scout_mini_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.707385] (scout_mini_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.728911] (-) TimerEvent: {}
+[3.773614] (scout_mini_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.816166] (scout_mini_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.817310] (scout_mini_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.828978] (-) TimerEvent: {}
+[3.929361] (-) TimerEvent: {}
+[3.998022] (scout_mini_base) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (find_package):\n'}
+[4.002244] (scout_mini_base) StderrLine: {'line': b'  By not providing "Findros2_control.cmake" in CMAKE_MODULE_PATH this project\n'}
+[4.009792] (scout_mini_base) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[4.015893] (scout_mini_base) StderrLine: {'line': b'  "ros2_control", but CMake did not find one.\n'}
+[4.020220] (scout_mini_base) StderrLine: {'line': b'\n'}
+[4.025949] (scout_mini_base) StderrLine: {'line': b'  Could not find a package configuration file provided by "ros2_control" with\n'}
+[4.029021] (scout_mini_base) StderrLine: {'line': b'  any of the following names:\n'}
+[4.032874] (-) TimerEvent: {}
+[4.034452] (scout_mini_base) StderrLine: {'line': b'\n'}
+[4.038112] (scout_mini_base) StderrLine: {'line': b'    ros2_controlConfig.cmake\n'}
+[4.041066] (scout_mini_base) StderrLine: {'line': b'    ros2_control-config.cmake\n'}
+[4.044049] (scout_mini_base) StderrLine: {'line': b'\n'}
+[4.046050] (scout_mini_base) StderrLine: {'line': b'  Add the installation prefix of "ros2_control" to CMAKE_PREFIX_PATH or set\n'}
+[4.048046] (scout_mini_base) StderrLine: {'line': b'  "ros2_control_DIR" to a directory containing one of the above files.  If\n'}
+[4.051741] (scout_mini_base) StderrLine: {'line': b'  "ros2_control" provides a separate development package or SDK, be sure it\n'}
+[4.054718] (scout_mini_base) StderrLine: {'line': b'  has been installed.\n'}
+[4.056667] (scout_mini_base) StderrLine: {'line': b'\n'}
+[4.058856] (scout_mini_base) StderrLine: {'line': b'\x1b[0m\n'}
+[4.062316] (scout_mini_base) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.064659] (scout_mini_base) StdoutLine: {'line': b'See also "/my_code/ros_ws/build/scout_mini_base/CMakeFiles/CMakeOutput.log".\n'}
+[4.067533] (scout_mini_base) CommandEnded: {'returncode': 1}
+[4.069365] (scout_mini_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[4.071222] (scout_mini_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.073410] (scout_mini_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.075505] (scout_mini_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.097043] (scout_mini_description) StdoutLine: {'line': b'-- Found rviz2: 11.2.16 (/opt/ros/humble/share/rviz2/cmake)\n'}
+[4.102329] (scout_mini_description) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[4.104902] (scout_mini_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.132070] (scout_mini_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.135820] (-) TimerEvent: {}
+[4.139609] (scout_mini_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[4.144961] (scout_mini_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.147515] (scout_mini_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.150148] (scout_mini_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.158234] (scout_mini_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.169076] (scout_mini_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.216266] (scout_mini_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.218802] (scout_mini_description) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.221532] (scout_mini_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.235916] (-) TimerEvent: {}
+[4.250248] (scout_mini_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.254305] (scout_mini_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.273452] (scout_mini_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[4.304425] (scout_mini_base) JobEnded: {'identifier': 'scout_mini_base', 'rc': 1}
+[4.326167] (scout_mini_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.328120] (scout_mini_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[4.336125] (-) TimerEvent: {}
+[4.363117] (scout_mini_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.365262] (scout_mini_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[4.371882] (scout_mini_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[4.389789] (scout_mini_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.436246] (-) TimerEvent: {}
+[4.485415] (scout_mini_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.536346] (-) TimerEvent: {}
+[4.637086] (-) TimerEvent: {}
+[4.738320] (-) TimerEvent: {}
+[4.839128] (-) TimerEvent: {}
+[4.940110] (-) TimerEvent: {}
+[5.040653] (-) TimerEvent: {}
+[5.143612] (-) TimerEvent: {}
+[5.246883] (-) TimerEvent: {}
+[5.348531] (-) TimerEvent: {}
+[5.449746] (-) TimerEvent: {}
+[5.557172] (-) TimerEvent: {}
+[5.633145] (scout_mini_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.656583] (scout_mini_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.658284] (-) TimerEvent: {}
+[5.758815] (-) TimerEvent: {}
+[5.861434] (-) TimerEvent: {}
+[5.962108] (-) TimerEvent: {}
+[6.063256] (-) TimerEvent: {}
+[6.164277] (-) TimerEvent: {}
+[6.265318] (-) TimerEvent: {}
+[6.366003] (-) TimerEvent: {}
+[6.467042] (-) TimerEvent: {}
+[6.568017] (-) TimerEvent: {}
+[6.587908] (scout_mini_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.663301] (scout_mini_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.668070] (-) TimerEvent: {}
+[6.671474] (scout_mini_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.768168] (-) TimerEvent: {}
+[6.869833] (-) TimerEvent: {}
+[6.970635] (-) TimerEvent: {}
+[7.071345] (-) TimerEvent: {}
+[7.172900] (-) TimerEvent: {}
+[7.273628] (-) TimerEvent: {}
+[7.374138] (-) TimerEvent: {}
+[7.474873] (-) TimerEvent: {}
+[7.573444] (scout_mini_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.575658] (-) TimerEvent: {}
+[7.676578] (-) TimerEvent: {}
+[7.777557] (-) TimerEvent: {}
+[7.878716] (-) TimerEvent: {}
+[7.979498] (-) TimerEvent: {}
+[8.080142] (-) TimerEvent: {}
+[8.136937] (scout_mini_description) StdoutLine: {'line': b'-- Generating done\n'}
+[8.180304] (-) TimerEvent: {}
+[8.280815] (-) TimerEvent: {}
+[8.381796] (-) TimerEvent: {}
+[8.483783] (-) TimerEvent: {}
+[8.500053] (scout_mini_description) StdoutLine: {'line': b'-- Build files have been written to: /my_code/ros_ws/build/scout_mini_description\n'}
+[8.507331] (scout_mini_description) JobEnded: {'identifier': 'scout_mini_description', 'rc': 'SIGINT'}
+[8.540148] (scout_mini_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.583892] (-) TimerEvent: {}
+[8.684645] (-) TimerEvent: {}
+[8.785717] (-) TimerEvent: {}
+[8.886546] (-) TimerEvent: {}
+[8.990024] (-) TimerEvent: {}
+[9.090709] (-) TimerEvent: {}
+[9.192323] (-) TimerEvent: {}
+[9.293035] (-) TimerEvent: {}
+[9.394003] (-) TimerEvent: {}
+[9.494397] (-) TimerEvent: {}
+[9.598906] (-) TimerEvent: {}
+[9.699362] (-) TimerEvent: {}
+[9.799948] (-) TimerEvent: {}
+[9.900932] (-) TimerEvent: {}
+[10.001362] (-) TimerEvent: {}
+[10.101780] (-) TimerEvent: {}
+[10.202171] (-) TimerEvent: {}
+[10.303372] (-) TimerEvent: {}
+[10.406603] (-) TimerEvent: {}
+[10.507044] (-) TimerEvent: {}
+[10.607482] (-) TimerEvent: {}
+[10.707988] (-) TimerEvent: {}
+[10.786115] (scout_mini_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.808075] (-) TimerEvent: {}
+[10.842285] (scout_mini_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[10.846630] (scout_mini_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.895305] (scout_mini_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[10.898511] (scout_mini_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.901679] (scout_mini_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.906173] (scout_mini_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[10.913307] (-) TimerEvent: {}
+[10.922878] (scout_mini_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.013410] (-) TimerEvent: {}
+[11.114241] (-) TimerEvent: {}
+[11.215158] (-) TimerEvent: {}
+[11.315968] (-) TimerEvent: {}
+[11.416898] (-) TimerEvent: {}
+[11.518552] (-) TimerEvent: {}
+[11.619421] (-) TimerEvent: {}
+[11.720647] (-) TimerEvent: {}
+[11.821332] (-) TimerEvent: {}
+[11.922197] (-) TimerEvent: {}
+[12.023128] (-) TimerEvent: {}
+[12.123698] (-) TimerEvent: {}
+[12.224319] (-) TimerEvent: {}
+[12.324874] (-) TimerEvent: {}
+[12.426087] (-) TimerEvent: {}
+[12.528382] (-) TimerEvent: {}
+[12.629281] (-) TimerEvent: {}
+[12.730166] (-) TimerEvent: {}
+[12.830872] (-) TimerEvent: {}
+[12.932016] (-) TimerEvent: {}
+[13.032796] (-) TimerEvent: {}
+[13.133652] (-) TimerEvent: {}
+[13.234497] (-) TimerEvent: {}
+[13.335885] (-) TimerEvent: {}
+[13.436731] (-) TimerEvent: {}
+[13.537396] (-) TimerEvent: {}
+[13.640947] (-) TimerEvent: {}
+[13.691577] (scout_mini_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.741116] (-) TimerEvent: {}
+[13.842216] (-) TimerEvent: {}
+[13.943037] (-) TimerEvent: {}
+[14.043660] (-) TimerEvent: {}
+[14.144055] (-) TimerEvent: {}
+[14.244634] (-) TimerEvent: {}
+[14.345697] (-) TimerEvent: {}
+[14.446273] (-) TimerEvent: {}
+[14.548178] (-) TimerEvent: {}
+[14.651482] (-) TimerEvent: {}
+[14.754260] (-) TimerEvent: {}
+[14.793368] (scout_mini_msgs) JobEnded: {'identifier': 'scout_mini_msgs', 'rc': 'SIGINT'}
+[14.810216] (scout_mini_ros2) JobSkipped: {'identifier': 'scout_mini_ros2'}
+[14.810432] (-) EventReactorShutdown: {}

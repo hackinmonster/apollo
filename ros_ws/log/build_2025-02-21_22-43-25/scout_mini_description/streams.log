@@ -1,0 +1,29 @@
+[0.214s] Invoking command in '/my_code/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /my_code/ros_ws/build/scout_mini_description -- -j20 -l20
+[0.415s] Invoked command in '/my_code/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /my_code/ros_ws/build/scout_mini_description -- -j20 -l20
+[0.461s] Invoking command in '/my_code/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /my_code/ros_ws/build/scout_mini_description
+[0.470s] -- Install configuration: ""
+[0.483s] -- Up-to-date: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/launch
+[0.531s] -- Up-to-date: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/description_launch.py
+[0.567s] -- Up-to-date: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/rviz2_launch.py
+[0.602s] -- Up-to-date: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes
+[0.685s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes/body.dae
+[4.716s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes/wheel.dae
+[5.463s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/rviz
+[5.571s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/rviz/scout_mini.rviz
+[5.799s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/urdf
+[5.900s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/urdf/scout_mini.urdf.xacro
+[6.187s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/ament_index/resource_index/package_run_dependencies/scout_mini_description
+[6.476s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/ament_index/resource_index/parent_prefix_path/scout_mini_description
+[6.611s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/ament_prefix_path.sh
+[6.692s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/ament_prefix_path.dsv
+[6.898s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/path.sh
+[7.061s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/path.dsv
+[7.220s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.bash
+[7.383s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.sh
+[7.504s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.zsh
+[7.602s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.dsv
+[7.664s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/package.dsv
+[7.742s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/ament_index/resource_index/packages/scout_mini_description
+[7.919s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/cmake/scout_mini_descriptionConfig.cmake
+[7.985s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/cmake/scout_mini_descriptionConfig-version.cmake
+[8.062s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/package.xml
