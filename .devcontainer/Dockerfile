@@ -25,7 +25,30 @@ RUN sudo usermod --append --groups video $USERNAME
 RUN sudo apt update && sudo apt upgrade -y
 
 # Install Git
-RUN sudo apt install -y git
+RUN sudo apt update && sudo apt install -y \
+    git \
+    ros-humble-rosidl-typesupport-c \
+    ros-humble-rosidl-default-generators \
+    ros-humble-robot-state-publisher \
+    ros-humble-builtin-interfaces \
+    python3-colcon-common-extensions \
+    build-essential \
+    && sudo rm -rf /var/lib/apt/lists/*
+
+# Install additional ROS 2 development dependencies
+RUN sudo apt update && sudo apt install -y \
+    ros-humble-ros2-control \
+    ros-humble-ros2-controllers \
+    ros-humble-can-msgs \ 
+    ros-humble-ros2-socketcan \
+    ros-humble-twist-mux \
+    ros-humble-rosidl-typesupport-c \
+    ros-humble-rosidl-default-generators \
+    ros-humble-robot-state-publisher \
+    ros-humble-builtin-interfaces \
+    python3-colcon-common-extensions \
+    build-essential \
+    && sudo rm -rf /var/lib/apt/lists/*
 
 # Rosdep update
 RUN rosdep update
