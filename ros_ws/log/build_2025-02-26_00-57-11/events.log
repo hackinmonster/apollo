@@ -1,0 +1,885 @@
+[0.000000] (-) TimerEvent: {}
+[0.000637] (scout_mini_base) JobQueued: {'identifier': 'scout_mini_base', 'dependencies': OrderedDict()}
+[0.001057] (scout_mini_description) JobQueued: {'identifier': 'scout_mini_description', 'dependencies': OrderedDict()}
+[0.001406] (scout_mini_hardware) JobQueued: {'identifier': 'scout_mini_hardware', 'dependencies': OrderedDict()}
+[0.001905] (scout_mini_msgs) JobQueued: {'identifier': 'scout_mini_msgs', 'dependencies': OrderedDict()}
+[0.002290] (scout_mini_ros2) JobQueued: {'identifier': 'scout_mini_ros2', 'dependencies': OrderedDict([('scout_mini_base', '/apollo/ros_ws/install/scout_mini_base'), ('scout_mini_description', '/apollo/ros_ws/install/scout_mini_description'), ('scout_mini_hardware', '/apollo/ros_ws/install/scout_mini_hardware'), ('scout_mini_msgs', '/apollo/ros_ws/install/scout_mini_msgs')])}
+[0.033962] (scout_mini_base) JobStarted: {'identifier': 'scout_mini_base'}
+[0.097654] (-) TimerEvent: {}
+[0.139078] (scout_mini_description) JobStarted: {'identifier': 'scout_mini_description'}
+[0.197732] (-) TimerEvent: {}
+[0.241617] (scout_mini_hardware) JobStarted: {'identifier': 'scout_mini_hardware'}
+[0.297846] (-) TimerEvent: {}
+[0.340274] (scout_mini_msgs) JobStarted: {'identifier': 'scout_mini_msgs'}
+[0.397944] (-) TimerEvent: {}
+[0.442172] (scout_mini_base) JobProgress: {'identifier': 'scout_mini_base', 'progress': 'cmake'}
+[0.460529] (scout_mini_base) JobProgress: {'identifier': 'scout_mini_base', 'progress': 'build'}
+[0.465074] (scout_mini_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/apollo/ros_ws/build/scout_mini_base', '--', '-j20', '-l20'], 'cwd': '/apollo/ros_ws/build/scout_mini_base', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1a694d6b-c1c5-4596-8596-a61e8581ec5e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-58d95889-0220-40a4-b0b5-4319da10147d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_base'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[0.484274] (scout_mini_description) JobProgress: {'identifier': 'scout_mini_description', 'progress': 'cmake'}
+[0.498016] (-) TimerEvent: {}
+[0.501756] (scout_mini_description) JobProgress: {'identifier': 'scout_mini_description', 'progress': 'build'}
+[0.507923] (scout_mini_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/apollo/ros_ws/build/scout_mini_description', '--', '-j20', '-l20'], 'cwd': '/apollo/ros_ws/build/scout_mini_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1a694d6b-c1c5-4596-8596-a61e8581ec5e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-58d95889-0220-40a4-b0b5-4319da10147d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[0.524390] (scout_mini_hardware) JobProgress: {'identifier': 'scout_mini_hardware', 'progress': 'cmake'}
+[0.549607] (scout_mini_hardware) Command: {'cmd': ['/usr/bin/cmake', '/apollo/ros_ws/src/scout_mini_hardware', '-DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_hardware'], 'cwd': '/apollo/ros_ws/build/scout_mini_hardware', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1a694d6b-c1c5-4596-8596-a61e8581ec5e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-58d95889-0220-40a4-b0b5-4319da10147d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_hardware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[0.563650] (scout_mini_msgs) JobProgress: {'identifier': 'scout_mini_msgs', 'progress': 'cmake'}
+[0.581562] (scout_mini_msgs) JobProgress: {'identifier': 'scout_mini_msgs', 'progress': 'build'}
+[0.586044] (scout_mini_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/apollo/ros_ws/build/scout_mini_msgs', '--', '-j20', '-l20'], 'cwd': '/apollo/ros_ws/build/scout_mini_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1a694d6b-c1c5-4596-8596-a61e8581ec5e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-58d95889-0220-40a4-b0b5-4319da10147d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[0.599568] (-) TimerEvent: {}
+[0.677636] (scout_mini_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.699647] (-) TimerEvent: {}
+[0.774821] (scout_mini_base) CommandEnded: {'returncode': 0}
+[0.794254] (scout_mini_base) JobProgress: {'identifier': 'scout_mini_base', 'progress': 'install'}
+[0.799722] (-) TimerEvent: {}
+[0.862732] (scout_mini_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/apollo/ros_ws/build/scout_mini_base'], 'cwd': '/apollo/ros_ws/build/scout_mini_base', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1a694d6b-c1c5-4596-8596-a61e8581ec5e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-58d95889-0220-40a4-b0b5-4319da10147d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_base'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[0.865022] (scout_mini_description) CommandEnded: {'returncode': 0}
+[0.883602] (scout_mini_description) JobProgress: {'identifier': 'scout_mini_description', 'progress': 'install'}
+[0.888437] (scout_mini_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/apollo/ros_ws/build/scout_mini_description'], 'cwd': '/apollo/ros_ws/build/scout_mini_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1a694d6b-c1c5-4596-8596-a61e8581ec5e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-58d95889-0220-40a4-b0b5-4319da10147d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[0.922568] (-) TimerEvent: {}
+[0.923116] (scout_mini_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.924719] (scout_mini_base) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.949216] (scout_mini_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.966757] (scout_mini_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.978252] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/config/scout_mini.yaml\n'}
+[1.022714] (-) TimerEvent: {}
+[1.028939] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/description_launch.py\n'}
+[1.030292] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/launch/base_launch.py\n'}
+[1.075090] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/rviz2_launch.py\n'}
+[1.103487] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/ament_index/resource_index/package_run_dependencies/scout_mini_base\n'}
+[1.122774] (-) TimerEvent: {}
+[1.140175] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes/body.dae\n'}
+[1.177838] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/ament_index/resource_index/parent_prefix_path/scout_mini_base\n'}
+[1.207774] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes/wheel.dae\n'}
+[1.209634] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/ament_prefix_path.sh\n'}
+[1.222821] (-) TimerEvent: {}
+[1.237850] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/ament_prefix_path.dsv\n'}
+[1.243261] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/rviz/scout_mini.rviz\n'}
+[1.265387] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/path.sh\n'}
+[1.301542] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/environment/path.dsv\n'}
+[1.310284] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/urdf/scout_mini.urdf.xacro\n'}
+[1.322910] (-) TimerEvent: {}
+[1.339397] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.bash\n'}
+[1.372595] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.sh\n'}
+[1.402168] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/package_run_dependencies/scout_mini_description\n'}
+[1.408684] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.zsh\n'}
+[1.423017] (-) TimerEvent: {}
+[1.442900] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/local_setup.dsv\n'}
+[1.458467] (scout_mini_base) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.dsv\n'}
+[1.481387] (scout_mini_hardware) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.488944] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/parent_prefix_path/scout_mini_description\n'}
+[1.517113] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/ament_prefix_path.sh\n'}
+[1.519060] (scout_mini_msgs) StdoutLine: {'line': b'[  1%] Built target scout_mini_msgs__cpp\n'}
+[1.523097] (-) TimerEvent: {}
+[1.562467] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/ament_prefix_path.dsv\n'}
+[1.602977] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/path.sh\n'}
+[1.619947] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.623217] (-) TimerEvent: {}
+[1.652405] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/ament_index/resource_index/packages/scout_mini_base\n'}
+[1.673561] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/path.dsv\n'}
+[1.704782] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.707201] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.712659] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.bash\n'}
+[1.714639] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.719421] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/cmake/scout_mini_baseConfig.cmake\n'}
+[1.723321] (-) TimerEvent: {}
+[1.743493] (scout_mini_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.746542] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.sh\n'}
+[1.756195] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/cmake/scout_mini_baseConfig-version.cmake\n'}
+[1.777432] (scout_mini_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.782678] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.zsh\n'}
+[1.806585] (scout_mini_base) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.xml\n'}
+[1.814374] (scout_mini_base) CommandEnded: {'returncode': 0}
+[1.817511] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.dsv\n'}
+[1.823393] (-) TimerEvent: {}
+[1.833629] (scout_mini_description) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.dsv\n'}
+[1.846819] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.868112] (scout_mini_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.923508] (-) TimerEvent: {}
+[1.978546] (scout_mini_msgs) StdoutLine: {'line': b'[ 12%] Built target scout_mini_msgs__rosidl_generator_c\n'}
+[2.023671] (-) TimerEvent: {}
+[2.056037] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/packages/scout_mini_description\n'}
+[2.110475] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/cmake/scout_mini_descriptionConfig.cmake\n'}
+[2.130267] (-) TimerEvent: {}
+[2.143160] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/cmake/scout_mini_descriptionConfig-version.cmake\n'}
+[2.195109] (scout_mini_description) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.xml\n'}
+[2.197244] (scout_mini_msgs) StdoutLine: {'line': b'[ 23%] Built target scout_mini_msgs__rosidl_typesupport_cpp\n'}
+[2.230383] (-) TimerEvent: {}
+[2.330873] (-) TimerEvent: {}
+[2.352571] (scout_mini_msgs) StdoutLine: {'line': b'[ 35%] Built target scout_mini_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.430974] (-) TimerEvent: {}
+[2.532320] (-) TimerEvent: {}
+[2.535804] (scout_mini_msgs) StdoutLine: {'line': b'[ 46%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.632415] (-) TimerEvent: {}
+[2.650656] (scout_mini_msgs) StdoutLine: {'line': b'[ 57%] Built target scout_mini_msgs__rosidl_typesupport_c\n'}
+[2.717226] (scout_mini_msgs) StdoutLine: {'line': b'[ 69%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.732765] (-) TimerEvent: {}
+[2.756346] (scout_mini_msgs) StdoutLine: {'line': b'[ 80%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c\n'}
+[2.812473] (scout_mini_msgs) StdoutLine: {'line': b'[ 80%] Built target ament_cmake_python_copy_scout_mini_msgs\n'}
+[2.832810] (-) TimerEvent: {}
+[2.871057] (scout_mini_base) JobEnded: {'identifier': 'scout_mini_base', 'rc': 0}
+[2.880149] (scout_mini_description) CommandEnded: {'returncode': 0}
+[2.932907] (-) TimerEvent: {}
+[2.959534] (scout_mini_msgs) StdoutLine: {'line': b'[ 80%] Built target scout_mini_msgs\n'}
+[3.033688] (-) TimerEvent: {}
+[3.034992] (scout_mini_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.112911] (scout_mini_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[3.133794] (-) TimerEvent: {}
+[3.234311] (-) TimerEvent: {}
+[3.334874] (-) TimerEvent: {}
+[3.386103] (scout_mini_msgs) StdoutLine: {'line': b'[ 81%] Built target scout_mini_msgs__py\n'}
+[3.434959] (-) TimerEvent: {}
+[3.470459] (scout_mini_hardware) StdoutLine: {'line': b'-- Found realtime_tools: 2.11.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[3.482010] (scout_mini_hardware) StdoutLine: {'line': b'-- Found can_msgs: 2.0.0 (/opt/ros/humble/share/can_msgs/cmake)\n'}
+[3.494038] (scout_mini_hardware) StdoutLine: {'line': b'-- Found ros2_socketcan: 1.3.0 (/opt/ros/humble/share/ros2_socketcan/cmake)\n'}
+[3.535192] (-) TimerEvent: {}
+[3.636106] (-) TimerEvent: {}
+[3.640950] (scout_mini_hardware) StdoutLine: {'line': b'-- Found scout_mini_msgs: 0.1.0 (/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake)\n'}
+[3.665870] (scout_mini_description) JobEnded: {'identifier': 'scout_mini_description', 'rc': 0}
+[3.736180] (-) TimerEvent: {}
+[3.743830] (scout_mini_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.747066] (scout_mini_msgs) StdoutLine: {'line': b'writing scout_mini_msgs.egg-info/PKG-INFO\n'}
+[3.752632] (scout_mini_msgs) StdoutLine: {'line': b'writing dependency_links to scout_mini_msgs.egg-info/dependency_links.txt\n'}
+[3.760064] (scout_mini_msgs) StdoutLine: {'line': b'writing top-level names to scout_mini_msgs.egg-info/top_level.txt\n'}
+[3.803792] (scout_mini_msgs) StdoutLine: {'line': b"reading manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'\n"}
+[3.825817] (scout_mini_msgs) StdoutLine: {'line': b'[ 91%] Built target scout_mini_msgs__rosidl_generator_py\n'}
+[3.836272] (-) TimerEvent: {}
+[3.889039] (scout_mini_msgs) StdoutLine: {'line': b"writing manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'\n"}
+[3.936369] (-) TimerEvent: {}
+[3.997071] (scout_mini_msgs) StdoutLine: {'line': b'[ 91%] Built target ament_cmake_python_build_scout_mini_msgs_egg\n'}
+[4.036560] (-) TimerEvent: {}
+[4.105874] (scout_mini_msgs) StdoutLine: {'line': b'[ 95%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.112782] (scout_mini_msgs) StdoutLine: {'line': b'[ 97%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.136657] (-) TimerEvent: {}
+[4.260919] (-) TimerEvent: {}
+[4.361674] (scout_mini_msgs) StdoutLine: {'line': b'[100%] Built target scout_mini_msgs__rosidl_typesupport_c__pyext\n'}
+[4.363143] (-) TimerEvent: {}
+[4.463731] (-) TimerEvent: {}
+[4.564459] (-) TimerEvent: {}
+[4.665199] (-) TimerEvent: {}
+[4.763815] (scout_mini_msgs) CommandEnded: {'returncode': 0}
+[4.765258] (-) TimerEvent: {}
+[4.780201] (scout_mini_msgs) JobProgress: {'identifier': 'scout_mini_msgs', 'progress': 'install'}
+[4.784423] (scout_mini_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/apollo/ros_ws/build/scout_mini_msgs'], 'cwd': '/apollo/ros_ws/build/scout_mini_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1a694d6b-c1c5-4596-8596-a61e8581ec5e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-58d95889-0220-40a4-b0b5-4319da10147d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[4.860374] (scout_mini_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.865337] (-) TimerEvent: {}
+[4.890917] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/rosidl_interfaces/scout_mini_msgs\n'}
+[4.909066] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[4.930608] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[4.955617] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[4.965419] (-) TimerEvent: {}
+[5.002259] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__functions.c\n'}
+[5.044760] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__functions.h\n'}
+[5.065519] (-) TimerEvent: {}
+[5.081097] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__struct.h\n'}
+[5.113483] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.h\n'}
+[5.146904] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__functions.c\n'}
+[5.165629] (-) TimerEvent: {}
+[5.178810] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__functions.h\n'}
+[5.212160] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__struct.h\n'}
+[5.249046] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.h\n'}
+[5.265698] (-) TimerEvent: {}
+[5.283658] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__functions.c\n'}
+[5.366011] (-) TimerEvent: {}
+[5.367189] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__functions.h\n'}
+[5.466203] (-) TimerEvent: {}
+[5.508630] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__struct.h\n'}
+[5.566629] (-) TimerEvent: {}
+[5.620238] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.h\n'}
+[5.666724] (-) TimerEvent: {}
+[5.690567] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__functions.c\n'}
+[5.728299] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__functions.h\n'}
+[5.766814] (-) TimerEvent: {}
+[5.768168] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__struct.h\n'}
+[5.810396] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.h\n'}
+[5.855962] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__functions.c\n'}
+[5.866902] (-) TimerEvent: {}
+[5.921257] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__functions.h\n'}
+[5.967449] (-) TimerEvent: {}
+[5.993286] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__struct.h\n'}
+[6.047392] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.h\n'}
+[6.067522] (-) TimerEvent: {}
+[6.082637] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__functions.c\n'}
+[6.111973] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__functions.h\n'}
+[6.144957] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__struct.h\n'}
+[6.167590] (-) TimerEvent: {}
+[6.175736] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.h\n'}
+[6.206340] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/driver_state.h\n'}
+[6.213676] (scout_mini_hardware) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.235497] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/fault_state.h\n'}
+[6.267707] (-) TimerEvent: {}
+[6.272254] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_command.h\n'}
+[6.308866] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_state.h\n'}
+[6.342056] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/motor_state.h\n'}
+[6.367821] (-) TimerEvent: {}
+[6.371928] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/robot_state.h\n'}
+[6.401256] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.425058] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/library_path.sh\n'}
+[6.456550] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/library_path.dsv\n'}
+[6.467891] (-) TimerEvent: {}
+[6.542893] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_c.so\n'}
+[6.568005] (-) TimerEvent: {}
+[6.669515] (-) TimerEvent: {}
+[6.767071] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[6.769654] (-) TimerEvent: {}
+[6.809281] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[6.861809] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[6.869727] (-) TimerEvent: {}
+[6.912576] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_fastrtps_c.h\n'}
+[6.959255] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_fastrtps_c.h\n'}
+[6.969774] (-) TimerEvent: {}
+[6.989102] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_fastrtps_c.h\n'}
+[7.017931] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_fastrtps_c.h\n'}
+[7.054074] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h\n'}
+[7.069913] (-) TimerEvent: {}
+[7.106409] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h\n'}
+[7.133769] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.170022] (-) TimerEvent: {}
+[7.174247] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.256556] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[7.269975] (scout_mini_hardware) StdoutLine: {'line': b'-- Generating done\n'}
+[7.271175] (-) TimerEvent: {}
+[7.290171] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[7.332148] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[7.371369] (-) TimerEvent: {}
+[7.473017] (-) TimerEvent: {}
+[7.560423] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_introspection_c.h\n'}
+[7.573172] (-) TimerEvent: {}
+[7.655394] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.c\n'}
+[7.673291] (-) TimerEvent: {}
+[7.756488] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_introspection_c.h\n'}
+[7.773390] (-) TimerEvent: {}
+[7.801323] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.c\n'}
+[7.847580] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_introspection_c.h\n'}
+[7.863403] (scout_mini_hardware) StdoutLine: {'line': b'-- Build files have been written to: /apollo/ros_ws/build/scout_mini_hardware\n'}
+[7.873585] (scout_mini_hardware) CommandEnded: {'returncode': 0}
+[7.875041] (-) TimerEvent: {}
+[7.879018] (scout_mini_hardware) JobProgress: {'identifier': 'scout_mini_hardware', 'progress': 'build'}
+[7.884640] (scout_mini_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/apollo/ros_ws/build/scout_mini_hardware', '--', '-j20', '-l20'], 'cwd': '/apollo/ros_ws/build/scout_mini_hardware', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1a694d6b-c1c5-4596-8596-a61e8581ec5e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-58d95889-0220-40a4-b0b5-4319da10147d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_hardware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[7.919317] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.c\n'}
+[7.926618] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_introspection_c.h\n'}
+[7.959540] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.c\n'}
+[7.975193] (-) TimerEvent: {}
+[7.993868] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_c.h\n'}
+[8.031249] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.c\n'}
+[8.067480] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_c.h\n'}
+[8.075318] (-) TimerEvent: {}
+[8.103273] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.c\n'}
+[8.136249] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.175456] (-) TimerEvent: {}
+[8.187278] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.245476] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_c.so\n'}
+[8.275585] (-) TimerEvent: {}
+[8.281851] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[8.310235] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[8.342484] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[8.375718] (-) TimerEvent: {}
+[8.389448] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__builder.hpp\n'}
+[8.422785] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__struct.hpp\n'}
+[8.457513] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__traits.hpp\n'}
+[8.475870] (-) TimerEvent: {}
+[8.488292] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.hpp\n'}
+[8.520570] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__builder.hpp\n'}
+[8.555186] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__struct.hpp\n'}
+[8.575972] (-) TimerEvent: {}
+[8.590775] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__traits.hpp\n'}
+[8.626116] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.hpp\n'}
+[8.654656] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__builder.hpp\n'}
+[8.676068] (-) TimerEvent: {}
+[8.680812] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__struct.hpp\n'}
+[8.691645] (scout_mini_hardware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o\x1b[0m\n'}
+[8.709688] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__traits.hpp\n'}
+[8.737593] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.hpp\n'}
+[8.765375] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__builder.hpp\n'}
+[8.776127] (-) TimerEvent: {}
+[8.793074] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__struct.hpp\n'}
+[8.823559] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__traits.hpp\n'}
+[8.856246] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.hpp\n'}
+[8.876226] (-) TimerEvent: {}
+[8.886212] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__builder.hpp\n'}
+[8.918957] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__struct.hpp\n'}
+[8.959987] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__traits.hpp\n'}
+[8.976316] (-) TimerEvent: {}
+[8.995942] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.hpp\n'}
+[9.024475] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__builder.hpp\n'}
+[9.057616] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__struct.hpp\n'}
+[9.076415] (-) TimerEvent: {}
+[9.107670] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__traits.hpp\n'}
+[9.144235] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.hpp\n'}
+[9.170194] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/driver_state.hpp\n'}
+[9.176485] (-) TimerEvent: {}
+[9.193067] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/fault_state.hpp\n'}
+[9.215989] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_command.hpp\n'}
+[9.237656] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_state.hpp\n'}
+[9.259712] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/motor_state.hpp\n'}
+[9.276591] (-) TimerEvent: {}
+[9.286499] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/robot_state.hpp\n'}
+[9.311289] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.326133] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[9.349221] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[9.376031] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[9.376965] (-) TimerEvent: {}
+[9.406986] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/dds_fastrtps\n'}
+[9.443976] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.471257] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.477052] (-) TimerEvent: {}
+[9.500776] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.528550] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.555551] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.577129] (-) TimerEvent: {}
+[9.580042] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.603913] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.637361] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.671091] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[9.677194] (-) TimerEvent: {}
+[9.691984] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[9.717487] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[9.754352] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.777329] (-) TimerEvent: {}
+[9.780214] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.cpp\n'}
+[9.807975] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.839587] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.cpp\n'}
+[9.867103] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.877400] (-) TimerEvent: {}
+[9.894113] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.cpp\n'}
+[9.924652] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.952721] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.cpp\n'}
+[9.977483] (-) TimerEvent: {}
+[9.981603] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.010919] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.cpp\n'}
+[10.037265] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.063173] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.cpp\n'}
+[10.077571] (-) TimerEvent: {}
+[10.101258] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[10.152797] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_cpp.so\n'}
+[10.177644] (-) TimerEvent: {}
+[10.197340] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/pythonpath.sh\n'}
+[10.216989] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/pythonpath.dsv\n'}
+[10.231209] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info\n'}
+[10.260966] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.277762] (-) TimerEvent: {}
+[10.343254] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[10.377875] (-) TimerEvent: {}
+[10.439867] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.477988] (-) TimerEvent: {}
+[10.531877] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[10.578107] (-) TimerEvent: {}
+[10.621830] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs\n'}
+[10.649709] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/libscout_mini_msgs__rosidl_generator_py.so\n'}
+[10.667496] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg\n'}
+[10.678187] (-) TimerEvent: {}
+[10.705700] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_driver_state.py\n'}
+[10.731427] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_driver_state_s.c\n'}
+[10.758160] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_fault_state.py\n'}
+[10.778293] (-) TimerEvent: {}
+[10.782963] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_fault_state_s.c\n'}
+[10.810744] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_command.py\n'}
+[10.836343] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_command_s.c\n'}
+[10.863258] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_state.py\n'}
+[10.878378] (-) TimerEvent: {}
+[10.889519] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_state_s.c\n'}
+[10.916178] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_motor_state.py\n'}
+[10.944769] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_motor_state_s.c\n'}
+[10.970853] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_robot_state.py\n'}
+[10.978423] (-) TimerEvent: {}
+[10.999353] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_robot_state_s.c\n'}
+[11.023220] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/__init__.py\n'}
+[11.041702] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.064296] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.078518] (-) TimerEvent: {}
+[11.121667] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.152596] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[11.178631] (-) TimerEvent: {}
+[11.222994] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.264036] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.278681] (-) TimerEvent: {}
+[11.285489] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/__init__.py\n'}
+[11.378769] (-) TimerEvent: {}
+[11.479271] (-) TimerEvent: {}
+[11.579854] (-) TimerEvent: {}
+[11.680398] (-) TimerEvent: {}
+[11.754829] (scout_mini_msgs) StdoutLine: {'line': b"Listing '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs'...\n"}
+[11.755900] (scout_mini_msgs) StdoutLine: {'line': b"Listing '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg'...\n"}
+[11.780507] (-) TimerEvent: {}
+[11.809117] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.880616] (-) TimerEvent: {}
+[11.936293] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.980712] (-) TimerEvent: {}
+[12.040355] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.080800] (-) TimerEvent: {}
+[12.125004] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_py.so\n'}
+[12.170135] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/DriverState.idl\n'}
+[12.180829] (-) TimerEvent: {}
+[12.198415] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/FaultState.idl\n'}
+[12.222151] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightCommand.idl\n'}
+[12.248096] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightState.idl\n'}
+[12.271251] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/MotorState.idl\n'}
+[12.280929] (-) TimerEvent: {}
+[12.298049] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/RobotState.idl\n'}
+[12.320726] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/DriverState.msg\n'}
+[12.342371] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/FaultState.msg\n'}
+[12.366734] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightCommand.msg\n'}
+[12.381018] (-) TimerEvent: {}
+[12.390045] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightState.msg\n'}
+[12.448600] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/MotorState.msg\n'}
+[12.481158] (-) TimerEvent: {}
+[12.492625] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/RobotState.msg\n'}
+[12.532779] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/package_run_dependencies/scout_mini_msgs\n'}
+[12.578624] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/parent_prefix_path/scout_mini_msgs\n'}
+[12.581234] (-) TimerEvent: {}
+[12.598350] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/ament_prefix_path.sh\n'}
+[12.620721] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/ament_prefix_path.dsv\n'}
+[12.638257] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/path.sh\n'}
+[12.660932] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/path.dsv\n'}
+[12.680518] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.bash\n'}
+[12.681538] (-) TimerEvent: {}
+[12.699990] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.sh\n'}
+[12.716883] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.zsh\n'}
+[12.734299] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.dsv\n'}
+[12.779531] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.dsv\n'}
+[12.782152] (-) TimerEvent: {}
+[12.882881] (-) TimerEvent: {}
+[12.889067] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/packages/scout_mini_msgs\n'}
+[12.951763] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_cExport.cmake\n'}
+[12.982865] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.983678] (-) TimerEvent: {}
+[13.027748] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.058776] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.083771] (-) TimerEvent: {}
+[13.106008] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.143759] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.183886] (-) TimerEvent: {}
+[13.197388] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cExport.cmake\n'}
+[13.229316] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.274170] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_cppExport.cmake\n'}
+[13.283917] (-) TimerEvent: {}
+[13.329674] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.359856] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.384022] (-) TimerEvent: {}
+[13.404499] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.433485] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.484302] (-) TimerEvent: {}
+[13.522464] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[13.551697] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.584520] (-) TimerEvent: {}
+[13.602671] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_pyExport.cmake\n'}
+[13.631319] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.649123] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[13.671409] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.684660] (-) TimerEvent: {}
+[13.690557] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.714526] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.732783] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.753563] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.774457] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.784798] (-) TimerEvent: {}
+[13.795348] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgsConfig.cmake\n'}
+[13.813699] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgsConfig-version.cmake\n'}
+[13.832862] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.xml\n'}
+[13.849435] (scout_mini_msgs) CommandEnded: {'returncode': 0}
+[13.884972] (-) TimerEvent: {}
+[13.985728] (-) TimerEvent: {}
+[14.086312] (-) TimerEvent: {}
+[14.191973] (-) TimerEvent: {}
+[14.293033] (-) TimerEvent: {}
+[14.394192] (-) TimerEvent: {}
+[14.495380] (-) TimerEvent: {}
+[14.595941] (-) TimerEvent: {}
+[14.696442] (-) TimerEvent: {}
+[14.797121] (-) TimerEvent: {}
+[14.897831] (-) TimerEvent: {}
+[14.998585] (-) TimerEvent: {}
+[15.099602] (-) TimerEvent: {}
+[15.200964] (-) TimerEvent: {}
+[15.302318] (-) TimerEvent: {}
+[15.403897] (-) TimerEvent: {}
+[15.505603] (-) TimerEvent: {}
+[15.567476] (scout_mini_msgs) JobEnded: {'identifier': 'scout_mini_msgs', 'rc': 0}
+[15.606009] (-) TimerEvent: {}
+[15.707136] (-) TimerEvent: {}
+[15.808297] (-) TimerEvent: {}
+[15.914342] (-) TimerEvent: {}
+[16.015588] (-) TimerEvent: {}
+[16.116689] (-) TimerEvent: {}
+[16.217523] (-) TimerEvent: {}
+[16.318381] (-) TimerEvent: {}
+[16.419168] (-) TimerEvent: {}
+[16.520414] (-) TimerEvent: {}
+[16.621514] (-) TimerEvent: {}
+[16.722865] (-) TimerEvent: {}
+[16.824091] (-) TimerEvent: {}
+[16.925451] (-) TimerEvent: {}
+[17.026601] (-) TimerEvent: {}
+[17.127454] (-) TimerEvent: {}
+[17.228284] (-) TimerEvent: {}
+[17.329093] (-) TimerEvent: {}
+[17.429955] (-) TimerEvent: {}
+[17.530897] (-) TimerEvent: {}
+[17.631881] (-) TimerEvent: {}
+[17.732707] (-) TimerEvent: {}
+[17.833518] (-) TimerEvent: {}
+[17.934383] (-) TimerEvent: {}
+[18.035236] (-) TimerEvent: {}
+[18.135971] (-) TimerEvent: {}
+[18.236854] (-) TimerEvent: {}
+[18.337664] (-) TimerEvent: {}
+[18.438431] (-) TimerEvent: {}
+[18.539178] (-) TimerEvent: {}
+[18.639996] (-) TimerEvent: {}
+[18.740693] (-) TimerEvent: {}
+[18.804279] (scout_mini_hardware) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/apollo/ros_ws/src/scout_mini_hardware/include/scout_mini_hardware/scout_mini_hardware.hpp:36\x1b[m\x1b[K,\n'}
+[18.810514] (scout_mini_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/apollo/ros_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp:18\x1b[m\x1b[K:\n'}
+[18.813666] (scout_mini_hardware) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.\x1b[m\x1b[K\xe2\x80\x99\n"}
+[18.816232] (scout_mini_hardware) StderrLine: {'line': b'   22 |   "This header include is deprecated. Please update your code to use \'realtime_publisher.hpp\' header."\x1b[01;36m\x1b[K)\x1b[m\x1b[K  //NOLINT\n'}
+[18.818868] (scout_mini_hardware) StderrLine: {'line': b'      |                                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[18.840833] (-) TimerEvent: {}
+[18.941839] (-) TimerEvent: {}
+[19.042629] (-) TimerEvent: {}
+[19.143429] (-) TimerEvent: {}
+[19.244201] (-) TimerEvent: {}
+[19.345001] (-) TimerEvent: {}
+[19.446101] (-) TimerEvent: {}
+[19.546835] (-) TimerEvent: {}
+[19.647618] (-) TimerEvent: {}
+[19.760895] (-) TimerEvent: {}
+[19.861792] (-) TimerEvent: {}
+[19.962799] (-) TimerEvent: {}
+[20.063882] (-) TimerEvent: {}
+[20.164595] (-) TimerEvent: {}
+[20.265303] (-) TimerEvent: {}
+[20.366415] (-) TimerEvent: {}
+[20.467527] (-) TimerEvent: {}
+[20.568319] (-) TimerEvent: {}
+[20.669827] (-) TimerEvent: {}
+[20.770741] (-) TimerEvent: {}
+[20.871549] (-) TimerEvent: {}
+[20.998972] (-) TimerEvent: {}
+[21.099900] (-) TimerEvent: {}
+[21.200871] (-) TimerEvent: {}
+[21.301997] (-) TimerEvent: {}
+[21.402915] (-) TimerEvent: {}
+[21.503728] (-) TimerEvent: {}
+[21.604568] (-) TimerEvent: {}
+[21.705483] (-) TimerEvent: {}
+[21.806243] (-) TimerEvent: {}
+[21.906974] (-) TimerEvent: {}
+[22.009621] (-) TimerEvent: {}
+[22.110323] (-) TimerEvent: {}
+[22.211375] (-) TimerEvent: {}
+[22.312337] (-) TimerEvent: {}
+[22.413674] (-) TimerEvent: {}
+[22.514512] (-) TimerEvent: {}
+[22.615297] (-) TimerEvent: {}
+[22.716147] (-) TimerEvent: {}
+[22.817163] (-) TimerEvent: {}
+[22.917986] (-) TimerEvent: {}
+[23.018817] (-) TimerEvent: {}
+[23.119617] (-) TimerEvent: {}
+[23.220447] (-) TimerEvent: {}
+[23.321268] (-) TimerEvent: {}
+[23.422130] (-) TimerEvent: {}
+[23.523173] (-) TimerEvent: {}
+[23.624290] (-) TimerEvent: {}
+[23.725300] (-) TimerEvent: {}
+[23.826450] (-) TimerEvent: {}
+[23.927345] (-) TimerEvent: {}
+[24.028349] (-) TimerEvent: {}
+[24.129544] (-) TimerEvent: {}
+[24.230614] (-) TimerEvent: {}
+[24.331416] (-) TimerEvent: {}
+[24.432923] (-) TimerEvent: {}
+[24.533823] (-) TimerEvent: {}
+[24.634649] (-) TimerEvent: {}
+[24.735677] (-) TimerEvent: {}
+[24.836840] (-) TimerEvent: {}
+[24.937954] (-) TimerEvent: {}
+[25.038831] (-) TimerEvent: {}
+[25.139753] (-) TimerEvent: {}
+[25.240524] (-) TimerEvent: {}
+[25.341275] (-) TimerEvent: {}
+[25.441967] (-) TimerEvent: {}
+[25.542807] (-) TimerEvent: {}
+[25.643588] (-) TimerEvent: {}
+[25.744371] (-) TimerEvent: {}
+[25.845450] (-) TimerEvent: {}
+[25.946544] (-) TimerEvent: {}
+[26.047357] (-) TimerEvent: {}
+[26.148215] (-) TimerEvent: {}
+[26.249024] (-) TimerEvent: {}
+[26.349694] (-) TimerEvent: {}
+[26.450757] (-) TimerEvent: {}
+[26.552904] (-) TimerEvent: {}
+[26.653686] (-) TimerEvent: {}
+[26.754483] (-) TimerEvent: {}
+[26.855184] (-) TimerEvent: {}
+[26.956062] (-) TimerEvent: {}
+[27.056883] (-) TimerEvent: {}
+[27.157729] (-) TimerEvent: {}
+[27.258499] (-) TimerEvent: {}
+[27.382628] (-) TimerEvent: {}
+[27.483765] (-) TimerEvent: {}
+[27.584531] (-) TimerEvent: {}
+[27.685011] (-) TimerEvent: {}
+[27.785536] (-) TimerEvent: {}
+[27.886106] (-) TimerEvent: {}
+[27.986701] (-) TimerEvent: {}
+[28.087295] (-) TimerEvent: {}
+[28.187761] (-) TimerEvent: {}
+[28.288292] (-) TimerEvent: {}
+[28.388792] (-) TimerEvent: {}
+[28.489267] (-) TimerEvent: {}
+[28.618790] (-) TimerEvent: {}
+[28.719236] (-) TimerEvent: {}
+[28.819761] (-) TimerEvent: {}
+[28.920475] (-) TimerEvent: {}
+[28.986135] (scout_mini_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libscout_mini_hardware.so\x1b[0m\n'}
+[29.020542] (-) TimerEvent: {}
+[29.121272] (-) TimerEvent: {}
+[29.222116] (-) TimerEvent: {}
+[29.322850] (-) TimerEvent: {}
+[29.423879] (-) TimerEvent: {}
+[29.524451] (-) TimerEvent: {}
+[29.625175] (-) TimerEvent: {}
+[29.725769] (-) TimerEvent: {}
+[29.826536] (-) TimerEvent: {}
+[29.927144] (-) TimerEvent: {}
+[30.027717] (-) TimerEvent: {}
+[30.128155] (-) TimerEvent: {}
+[30.228572] (-) TimerEvent: {}
+[30.329090] (-) TimerEvent: {}
+[30.429908] (-) TimerEvent: {}
+[30.531003] (-) TimerEvent: {}
+[30.632314] (-) TimerEvent: {}
+[30.733433] (-) TimerEvent: {}
+[30.834628] (-) TimerEvent: {}
+[30.935605] (-) TimerEvent: {}
+[31.036438] (-) TimerEvent: {}
+[31.137937] (-) TimerEvent: {}
+[31.239075] (-) TimerEvent: {}
+[31.339826] (-) TimerEvent: {}
+[31.440525] (-) TimerEvent: {}
+[31.541263] (-) TimerEvent: {}
+[31.642194] (-) TimerEvent: {}
+[31.742833] (-) TimerEvent: {}
+[31.843562] (-) TimerEvent: {}
+[31.944181] (-) TimerEvent: {}
+[32.045082] (-) TimerEvent: {}
+[32.145990] (-) TimerEvent: {}
+[32.246754] (-) TimerEvent: {}
+[32.347701] (-) TimerEvent: {}
+[32.448735] (-) TimerEvent: {}
+[32.549258] (-) TimerEvent: {}
+[32.649769] (-) TimerEvent: {}
+[32.750282] (-) TimerEvent: {}
+[32.850803] (-) TimerEvent: {}
+[32.951404] (-) TimerEvent: {}
+[33.051992] (-) TimerEvent: {}
+[33.152523] (-) TimerEvent: {}
+[33.252913] (-) TimerEvent: {}
+[33.353366] (-) TimerEvent: {}
+[33.453836] (-) TimerEvent: {}
+[33.554528] (-) TimerEvent: {}
+[33.655228] (-) TimerEvent: {}
+[33.755688] (-) TimerEvent: {}
+[33.856175] (-) TimerEvent: {}
+[33.957054] (-) TimerEvent: {}
+[34.058222] (-) TimerEvent: {}
+[34.159135] (-) TimerEvent: {}
+[34.259795] (-) TimerEvent: {}
+[34.360396] (-) TimerEvent: {}
+[34.461215] (-) TimerEvent: {}
+[34.562296] (-) TimerEvent: {}
+[34.662804] (-) TimerEvent: {}
+[34.763387] (-) TimerEvent: {}
+[34.865090] (-) TimerEvent: {}
+[34.966049] (-) TimerEvent: {}
+[35.066571] (-) TimerEvent: {}
+[35.167232] (-) TimerEvent: {}
+[35.203625] (scout_mini_hardware) StdoutLine: {'line': b'[100%] Built target scout_mini_hardware\n'}
+[35.267322] (-) TimerEvent: {}
+[35.368222] (scout_mini_hardware) CommandEnded: {'returncode': 0}
+[35.370599] (-) TimerEvent: {}
+[35.427576] (scout_mini_hardware) JobProgress: {'identifier': 'scout_mini_hardware', 'progress': 'install'}
+[35.441456] (scout_mini_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/apollo/ros_ws/build/scout_mini_hardware'], 'cwd': '/apollo/ros_ws/build/scout_mini_hardware', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1a694d6b-c1c5-4596-8596-a61e8581ec5e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-58d95889-0220-40a4-b0b5-4319da10147d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_hardware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[35.470695] (-) TimerEvent: {}
+[35.571355] (-) TimerEvent: {}
+[35.672151] (-) TimerEvent: {}
+[35.770665] (scout_mini_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.772229] (-) TimerEvent: {}
+[35.792171] (scout_mini_hardware) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[35.815557] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware//scout_mini_hardware.xml\n'}
+[35.872464] (-) TimerEvent: {}
+[35.973383] (-) TimerEvent: {}
+[36.074020] (-) TimerEvent: {}
+[36.174760] (-) TimerEvent: {}
+[36.216903] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/lib/libscout_mini_hardware.so\n'}
+[36.274946] (-) TimerEvent: {}
+[36.376000] (-) TimerEvent: {}
+[36.476633] (-) TimerEvent: {}
+[36.577310] (-) TimerEvent: {}
+[36.678359] (-) TimerEvent: {}
+[36.715446] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/include/include/scout_mini_hardware/scout_mini_hardware.hpp\n'}
+[36.778515] (-) TimerEvent: {}
+[36.879434] (-) TimerEvent: {}
+[36.979907] (-) TimerEvent: {}
+[36.989036] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/include/include/scout_mini_hardware/visibility_control.h\n'}
+[37.080027] (-) TimerEvent: {}
+[37.180568] (-) TimerEvent: {}
+[37.198634] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/library_path.sh\n'}
+[37.280708] (-) TimerEvent: {}
+[37.381613] (-) TimerEvent: {}
+[37.482504] (-) TimerEvent: {}
+[37.583472] (-) TimerEvent: {}
+[37.646952] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/library_path.dsv\n'}
+[37.683635] (-) TimerEvent: {}
+[37.784318] (-) TimerEvent: {}
+[37.885072] (-) TimerEvent: {}
+[37.986033] (-) TimerEvent: {}
+[38.088100] (-) TimerEvent: {}
+[38.190523] (-) TimerEvent: {}
+[38.249858] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/ament_index/resource_index/package_run_dependencies/scout_mini_hardware\n'}
+[38.290438] (-) TimerEvent: {}
+[38.391223] (-) TimerEvent: {}
+[38.492512] (-) TimerEvent: {}
+[38.594150] (-) TimerEvent: {}
+[38.696448] (-) TimerEvent: {}
+[38.798334] (-) TimerEvent: {}
+[38.899813] (-) TimerEvent: {}
+[39.004839] (-) TimerEvent: {}
+[39.043464] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/ament_index/resource_index/parent_prefix_path/scout_mini_hardware\n'}
+[39.104701] (-) TimerEvent: {}
+[39.206014] (-) TimerEvent: {}
+[39.307945] (-) TimerEvent: {}
+[39.409961] (-) TimerEvent: {}
+[39.511102] (-) TimerEvent: {}
+[39.613144] (-) TimerEvent: {}
+[39.715282] (-) TimerEvent: {}
+[39.807873] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/ament_prefix_path.sh\n'}
+[39.815655] (-) TimerEvent: {}
+[39.916990] (-) TimerEvent: {}
+[40.017942] (-) TimerEvent: {}
+[40.118751] (-) TimerEvent: {}
+[40.203569] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/ament_prefix_path.dsv\n'}
+[40.218806] (-) TimerEvent: {}
+[40.319555] (-) TimerEvent: {}
+[40.354596] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/path.sh\n'}
+[40.419685] (-) TimerEvent: {}
+[40.476220] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/path.dsv\n'}
+[40.519814] (-) TimerEvent: {}
+[40.618895] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.bash\n'}
+[40.619848] (-) TimerEvent: {}
+[40.720284] (-) TimerEvent: {}
+[40.775492] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.sh\n'}
+[40.820429] (-) TimerEvent: {}
+[40.921040] (-) TimerEvent: {}
+[40.966939] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.zsh\n'}
+[41.021262] (-) TimerEvent: {}
+[41.122498] (-) TimerEvent: {}
+[41.176625] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.dsv\n'}
+[41.222603] (-) TimerEvent: {}
+[41.294945] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.dsv\n'}
+[41.322654] (-) TimerEvent: {}
+[41.423203] (-) TimerEvent: {}
+[41.461909] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/ament_index/resource_index/packages/scout_mini_hardware\n'}
+[41.523332] (-) TimerEvent: {}
+[41.623919] (-) TimerEvent: {}
+[41.651058] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/scout_mini_hardware\n'}
+[41.724022] (-) TimerEvent: {}
+[41.780126] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[41.824122] (-) TimerEvent: {}
+[41.906900] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[41.924217] (-) TimerEvent: {}
+[42.024841] (-) TimerEvent: {}
+[42.083401] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[42.125020] (-) TimerEvent: {}
+[42.225614] (-) TimerEvent: {}
+[42.230950] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/scout_mini_hardwareConfig.cmake\n'}
+[42.325693] (-) TimerEvent: {}
+[42.377042] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/scout_mini_hardwareConfig-version.cmake\n'}
+[42.425929] (-) TimerEvent: {}
+[42.527057] (-) TimerEvent: {}
+[42.628026] (-) TimerEvent: {}
+[42.744105] (-) TimerEvent: {}
+[42.795933] (scout_mini_hardware) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.xml\n'}
+[42.844202] (-) TimerEvent: {}
+[42.931813] (scout_mini_hardware) CommandEnded: {'returncode': 0}
+[42.944271] (-) TimerEvent: {}
+[43.044710] (-) TimerEvent: {}
+[43.146091] (-) TimerEvent: {}
+[43.246600] (-) TimerEvent: {}
+[43.358825] (-) TimerEvent: {}
+[43.468831] (-) TimerEvent: {}
+[43.569438] (-) TimerEvent: {}
+[43.670268] (-) TimerEvent: {}
+[43.771234] (-) TimerEvent: {}
+[43.871793] (-) TimerEvent: {}
+[43.999758] (-) TimerEvent: {}
+[44.100787] (-) TimerEvent: {}
+[44.201312] (-) TimerEvent: {}
+[44.301804] (-) TimerEvent: {}
+[44.402366] (-) TimerEvent: {}
+[44.502837] (-) TimerEvent: {}
+[44.603868] (-) TimerEvent: {}
+[44.619947] (scout_mini_hardware) JobEnded: {'identifier': 'scout_mini_hardware', 'rc': 0}
+[44.637340] (scout_mini_ros2) JobStarted: {'identifier': 'scout_mini_ros2'}
+[44.703976] (-) TimerEvent: {}
+[44.804857] (-) TimerEvent: {}
+[44.905919] (-) TimerEvent: {}
+[45.006692] (-) TimerEvent: {}
+[45.107445] (-) TimerEvent: {}
+[45.118342] (scout_mini_ros2) JobProgress: {'identifier': 'scout_mini_ros2', 'progress': 'cmake'}
+[45.137723] (scout_mini_ros2) JobProgress: {'identifier': 'scout_mini_ros2', 'progress': 'build'}
+[45.142812] (scout_mini_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/apollo/ros_ws/build/scout_mini_ros2', '--', '-j20', '-l20'], 'cwd': '/apollo/ros_ws/build/scout_mini_ros2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/apollo/ros_ws/install/scout_mini_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1a694d6b-c1c5-4596-8596-a61e8581ec5e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-58d95889-0220-40a4-b0b5-4319da10147d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/apollo/ros_ws/install/scout_mini_ros2:/opt/ros/humble')]), 'shell': False}
+[45.207580] (-) TimerEvent: {}
+[45.308250] (-) TimerEvent: {}
+[45.408815] (-) TimerEvent: {}
+[45.509292] (-) TimerEvent: {}
+[45.609911] (-) TimerEvent: {}
+[45.710590] (-) TimerEvent: {}
+[45.811148] (-) TimerEvent: {}
+[45.911675] (-) TimerEvent: {}
+[46.012244] (-) TimerEvent: {}
+[46.112764] (-) TimerEvent: {}
+[46.166246] (scout_mini_ros2) CommandEnded: {'returncode': 0}
+[46.182917] (scout_mini_ros2) JobProgress: {'identifier': 'scout_mini_ros2', 'progress': 'install'}
+[46.186695] (scout_mini_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/apollo/ros_ws/build/scout_mini_ros2'], 'cwd': '/apollo/ros_ws/build/scout_mini_ros2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/apollo/ros_ws/install/scout_mini_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1a694d6b-c1c5-4596-8596-a61e8581ec5e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-58d95889-0220-40a4-b0b5-4319da10147d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/apollo/ros_ws/install/scout_mini_ros2:/opt/ros/humble')]), 'shell': False}
+[46.212860] (-) TimerEvent: {}
+[46.313345] (-) TimerEvent: {}
+[46.413971] (-) TimerEvent: {}
+[46.475935] (scout_mini_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[46.514088] (-) TimerEvent: {}
+[46.526026] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/ament_index/resource_index/package_run_dependencies/scout_mini_ros2\n'}
+[46.589072] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/ament_index/resource_index/parent_prefix_path/scout_mini_ros2\n'}
+[46.614180] (-) TimerEvent: {}
+[46.625324] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/ament_prefix_path.sh\n'}
+[46.707702] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/ament_prefix_path.dsv\n'}
+[46.741381] (-) TimerEvent: {}
+[46.783551] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/path.sh\n'}
+[46.841558] (-) TimerEvent: {}
+[46.868064] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/path.dsv\n'}
+[46.941786] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.bash\n'}
+[46.943395] (-) TimerEvent: {}
+[46.976254] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.sh\n'}
+[46.994632] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.zsh\n'}
+[47.010579] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.dsv\n'}
+[47.032276] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.dsv\n'}
+[47.043508] (-) TimerEvent: {}
+[47.111158] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/ament_index/resource_index/packages/scout_mini_ros2\n'}
+[47.132004] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/cmake/scout_mini_ros2Config.cmake\n'}
+[47.143617] (-) TimerEvent: {}
+[47.146530] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/cmake/scout_mini_ros2Config-version.cmake\n'}
+[47.172969] (scout_mini_ros2) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.xml\n'}
+[47.202938] (scout_mini_ros2) CommandEnded: {'returncode': 0}
+[47.243750] (-) TimerEvent: {}
+[47.344916] (-) TimerEvent: {}
+[47.446184] (-) TimerEvent: {}
+[47.547665] (-) TimerEvent: {}
+[47.649208] (-) TimerEvent: {}
+[47.750196] (-) TimerEvent: {}
+[47.851710] (-) TimerEvent: {}
+[47.952908] (-) TimerEvent: {}
+[48.056419] (-) TimerEvent: {}
+[48.157049] (-) TimerEvent: {}
+[48.257643] (-) TimerEvent: {}
+[48.358219] (-) TimerEvent: {}
+[48.450358] (scout_mini_ros2) JobEnded: {'identifier': 'scout_mini_ros2', 'rc': 0}
+[48.468610] (-) TimerEvent: {}
+[48.469309] (-) EventReactorShutdown: {}

@@ -1,0 +1,44 @@
+[0.417s] Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_msgs -- -j20 -l20
+[1.253s] [  1%] Built target scout_mini_msgs__cpp
+[1.328s] [35m[1mConsolidate compiler generated dependencies of target scout_mini_msgs__rosidl_generator_c[0m
+[1.553s] [35m[1mConsolidate compiler generated dependencies of target scout_mini_msgs__rosidl_typesupport_cpp[0m
+[1.703s] [35m[1mConsolidate compiler generated dependencies of target scout_mini_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.731s] [35m[1mConsolidate compiler generated dependencies of target scout_mini_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.046s] [ 12%] Built target scout_mini_msgs__rosidl_generator_c
+[2.368s] [35m[1mConsolidate compiler generated dependencies of target scout_mini_msgs__rosidl_typesupport_c[0m
+[2.532s] [35m[1mConsolidate compiler generated dependencies of target scout_mini_msgs__rosidl_typesupport_introspection_c[0m
+[2.535s] [35m[1mConsolidate compiler generated dependencies of target scout_mini_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.619s] gmake[2]: Warning: File 'CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 0.08 s in the future
+[2.705s] [ 23%] Built target scout_mini_msgs__rosidl_typesupport_cpp
+[2.842s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.849s] [ 23%] Built target ament_cmake_python_copy_scout_mini_msgs
+[2.911s] [ 35%] Built target scout_mini_msgs__rosidl_typesupport_c
+[2.973s] [ 46%] Built target scout_mini_msgs__rosidl_typesupport_introspection_cpp
+[3.114s] [ 57%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_cpp
+[3.312s] [ 69%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c
+[3.413s] running egg_info
+[3.419s] writing scout_mini_msgs.egg-info/PKG-INFO
+[3.431s] writing dependency_links to scout_mini_msgs.egg-info/dependency_links.txt
+[3.449s] writing top-level names to scout_mini_msgs.egg-info/top_level.txt
+[3.568s] reading manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'
+[3.702s] writing manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'
+[3.774s] [ 69%] Built target ament_cmake_python_build_scout_mini_msgs_egg
+[4.033s] [ 80%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c
+[4.193s] [ 80%] Built target scout_mini_msgs
+[4.499s] [ 81%] Built target scout_mini_msgs__py
+[4.631s] [35m[1mConsolidate compiler generated dependencies of target scout_mini_msgs__rosidl_generator_py[0m
+[5.118s] gmake[2]: Warning: File 'CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/compiler_depend.make' has modification time 0.079 s in the future
+[5.446s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[5.538s] [ 91%] Built target scout_mini_msgs__rosidl_generator_py
+[5.633s] [35m[1mConsolidate compiler generated dependencies of target scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.635s] [35m[1mConsolidate compiler generated dependencies of target scout_mini_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[5.636s] [35m[1mConsolidate compiler generated dependencies of target scout_mini_msgs__rosidl_typesupport_c__pyext[0m
+[6.054s] gmake[2]: Warning: File 'CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/compiler_depend.make' has modification time 0.25 s in the future
+[6.063s] gmake[2]: Warning: File 'CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/compiler_depend.make' has modification time 0.25 s in the future
+[6.066s] gmake[2]: Warning: File 'CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/compiler_depend.make' has modification time 0.24 s in the future
+[6.156s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.158s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.160s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.204s] [100%] Built target scout_mini_msgs__rosidl_typesupport_c__pyext
+[6.208s] [100%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.210s] [100%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c__pyext

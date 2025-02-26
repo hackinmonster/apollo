@@ -1,9 +1,0 @@
-[0.168s] Invoking command in '/my_code/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /my_code/ros_ws/build/scout_mini_description -- -j20 -l20
-[0.411s] Invoked command in '/my_code/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /my_code/ros_ws/build/scout_mini_description -- -j20 -l20
-[0.446s] Invoking command in '/my_code/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /my_code/ros_ws/build/scout_mini_description
-[0.459s] -- Install configuration: ""
-[0.476s] -- Up-to-date: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/launch
-[0.523s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/description_launch.py
-[0.702s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/rviz2_launch.py
-[0.847s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes
-[0.924s] -- Installing: /my_code/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes/body.dae

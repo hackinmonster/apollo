@@ -1,0 +1,397 @@
+[0.000000] (-) TimerEvent: {}
+[0.000775] (-) JobUnselected: {'identifier': 'scout_mini_base'}
+[0.001163] (-) JobUnselected: {'identifier': 'scout_mini_description'}
+[0.001487] (-) JobUnselected: {'identifier': 'scout_mini_hardware'}
+[0.001898] (-) JobUnselected: {'identifier': 'scout_mini_msgs'}
+[0.002324] (scout_mini_ros2) JobQueued: {'identifier': 'scout_mini_ros2', 'dependencies': OrderedDict([('scout_mini_base', '/apollo/ros_ws/install/scout_mini_base'), ('scout_mini_description', '/apollo/ros_ws/install/scout_mini_description'), ('scout_mini_hardware', '/apollo/ros_ws/install/scout_mini_hardware'), ('scout_mini_msgs', '/apollo/ros_ws/install/scout_mini_msgs')])}
+[0.028842] (scout_mini_ros2) JobStarted: {'identifier': 'scout_mini_ros2'}
+[0.097327] (-) TimerEvent: {}
+[0.198289] (-) TimerEvent: {}
+[0.296785] (scout_mini_ros2) JobProgress: {'identifier': 'scout_mini_ros2', 'progress': 'cmake'}
+[0.298403] (-) TimerEvent: {}
+[0.399508] (-) TimerEvent: {}
+[0.444001] (scout_mini_ros2) Command: {'cmd': ['/usr/bin/cmake', '/apollo/ros_ws/src/scout_mini_ros2', '-DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_ros2'], 'cwd': '/apollo/ros_ws/build/scout_mini_ros2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-cb9ff3fc-6b6c-42de-a721-dc533f5c362f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1e787fc9-b1e4-49bc-ac72-c7168d9c7b9e.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X2","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[0.499657] (-) TimerEvent: {}
+[0.600683] (-) TimerEvent: {}
+[0.701936] (-) TimerEvent: {}
+[0.803315] (-) TimerEvent: {}
+[0.904355] (-) TimerEvent: {}
+[1.005186] (-) TimerEvent: {}
+[1.106339] (-) TimerEvent: {}
+[1.207484] (-) TimerEvent: {}
+[1.308470] (-) TimerEvent: {}
+[1.409284] (-) TimerEvent: {}
+[1.510220] (-) TimerEvent: {}
+[1.611181] (-) TimerEvent: {}
+[1.712254] (-) TimerEvent: {}
+[1.813810] (-) TimerEvent: {}
+[1.914959] (-) TimerEvent: {}
+[2.016251] (-) TimerEvent: {}
+[2.117413] (-) TimerEvent: {}
+[2.218337] (-) TimerEvent: {}
+[2.319508] (-) TimerEvent: {}
+[2.420622] (-) TimerEvent: {}
+[2.426750] (scout_mini_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.520872] (-) TimerEvent: {}
+[2.621831] (-) TimerEvent: {}
+[2.722775] (-) TimerEvent: {}
+[2.824045] (-) TimerEvent: {}
+[2.925369] (-) TimerEvent: {}
+[3.026556] (-) TimerEvent: {}
+[3.127534] (-) TimerEvent: {}
+[3.228420] (-) TimerEvent: {}
+[3.329517] (-) TimerEvent: {}
+[3.430352] (-) TimerEvent: {}
+[3.531354] (-) TimerEvent: {}
+[3.632205] (-) TimerEvent: {}
+[3.693144] (scout_mini_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.732373] (-) TimerEvent: {}
+[3.833315] (-) TimerEvent: {}
+[3.891303] (scout_mini_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.933433] (-) TimerEvent: {}
+[4.034301] (-) TimerEvent: {}
+[4.135452] (-) TimerEvent: {}
+[4.236645] (-) TimerEvent: {}
+[4.339412] (-) TimerEvent: {}
+[4.440468] (-) TimerEvent: {}
+[4.541805] (-) TimerEvent: {}
+[4.643610] (-) TimerEvent: {}
+[4.744687] (-) TimerEvent: {}
+[4.848357] (-) TimerEvent: {}
+[4.949273] (-) TimerEvent: {}
+[5.052719] (-) TimerEvent: {}
+[5.153767] (-) TimerEvent: {}
+[5.254583] (-) TimerEvent: {}
+[5.355284] (-) TimerEvent: {}
+[5.456030] (-) TimerEvent: {}
+[5.556882] (-) TimerEvent: {}
+[5.657892] (-) TimerEvent: {}
+[5.758863] (-) TimerEvent: {}
+[5.859885] (-) TimerEvent: {}
+[5.960809] (-) TimerEvent: {}
+[6.061855] (-) TimerEvent: {}
+[6.162912] (-) TimerEvent: {}
+[6.263927] (-) TimerEvent: {}
+[6.365073] (-) TimerEvent: {}
+[6.465941] (-) TimerEvent: {}
+[6.567140] (-) TimerEvent: {}
+[6.668212] (-) TimerEvent: {}
+[6.768907] (-) TimerEvent: {}
+[6.869530] (-) TimerEvent: {}
+[6.970423] (-) TimerEvent: {}
+[7.071677] (-) TimerEvent: {}
+[7.173017] (-) TimerEvent: {}
+[7.274192] (-) TimerEvent: {}
+[7.333923] (scout_mini_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.374487] (-) TimerEvent: {}
+[7.435585] (scout_mini_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.438524] (scout_mini_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.441050] (scout_mini_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.474786] (-) TimerEvent: {}
+[7.576285] (-) TimerEvent: {}
+[7.605631] (scout_mini_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.676505] (-) TimerEvent: {}
+[7.777727] (-) TimerEvent: {}
+[7.879040] (-) TimerEvent: {}
+[7.981510] (-) TimerEvent: {}
+[8.083004] (-) TimerEvent: {}
+[8.183931] (-) TimerEvent: {}
+[8.284735] (-) TimerEvent: {}
+[8.385614] (-) TimerEvent: {}
+[8.486368] (-) TimerEvent: {}
+[8.587212] (-) TimerEvent: {}
+[8.688195] (-) TimerEvent: {}
+[8.789239] (-) TimerEvent: {}
+[8.890052] (-) TimerEvent: {}
+[8.990727] (-) TimerEvent: {}
+[9.091303] (-) TimerEvent: {}
+[9.192283] (-) TimerEvent: {}
+[9.293059] (-) TimerEvent: {}
+[9.393704] (-) TimerEvent: {}
+[9.494653] (-) TimerEvent: {}
+[9.596536] (-) TimerEvent: {}
+[9.697435] (-) TimerEvent: {}
+[9.798716] (-) TimerEvent: {}
+[9.900113] (-) TimerEvent: {}
+[10.021861] (-) TimerEvent: {}
+[10.123337] (-) TimerEvent: {}
+[10.224559] (-) TimerEvent: {}
+[10.325966] (-) TimerEvent: {}
+[10.397975] (scout_mini_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.426107] (-) TimerEvent: {}
+[10.464163] (scout_mini_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.466727] (scout_mini_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.468599] (scout_mini_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.526331] (-) TimerEvent: {}
+[10.627487] (-) TimerEvent: {}
+[10.728652] (-) TimerEvent: {}
+[10.829416] (-) TimerEvent: {}
+[10.921477] (scout_mini_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.929475] (-) TimerEvent: {}
+[11.030059] (-) TimerEvent: {}
+[11.131043] (-) TimerEvent: {}
+[11.231896] (-) TimerEvent: {}
+[11.332575] (-) TimerEvent: {}
+[11.433295] (-) TimerEvent: {}
+[11.534120] (-) TimerEvent: {}
+[11.635294] (-) TimerEvent: {}
+[11.736480] (-) TimerEvent: {}
+[11.838297] (-) TimerEvent: {}
+[11.939547] (-) TimerEvent: {}
+[12.040814] (-) TimerEvent: {}
+[12.142055] (-) TimerEvent: {}
+[12.244079] (-) TimerEvent: {}
+[12.345263] (-) TimerEvent: {}
+[12.448545] (-) TimerEvent: {}
+[12.563233] (-) TimerEvent: {}
+[12.664405] (-) TimerEvent: {}
+[12.765616] (-) TimerEvent: {}
+[12.866549] (-) TimerEvent: {}
+[12.967745] (-) TimerEvent: {}
+[13.068696] (-) TimerEvent: {}
+[13.169617] (-) TimerEvent: {}
+[13.270660] (-) TimerEvent: {}
+[13.371831] (-) TimerEvent: {}
+[13.472570] (-) TimerEvent: {}
+[13.573510] (-) TimerEvent: {}
+[13.674588] (-) TimerEvent: {}
+[13.775627] (-) TimerEvent: {}
+[13.876727] (-) TimerEvent: {}
+[13.977962] (-) TimerEvent: {}
+[14.078824] (-) TimerEvent: {}
+[14.180058] (-) TimerEvent: {}
+[14.281424] (-) TimerEvent: {}
+[14.382069] (-) TimerEvent: {}
+[14.483042] (-) TimerEvent: {}
+[14.584303] (-) TimerEvent: {}
+[14.685258] (-) TimerEvent: {}
+[14.753558] (scout_mini_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[14.785411] (-) TimerEvent: {}
+[14.886439] (-) TimerEvent: {}
+[14.987500] (-) TimerEvent: {}
+[15.088945] (-) TimerEvent: {}
+[15.190023] (-) TimerEvent: {}
+[15.290986] (-) TimerEvent: {}
+[15.391764] (-) TimerEvent: {}
+[15.492732] (-) TimerEvent: {}
+[15.593622] (-) TimerEvent: {}
+[15.694749] (-) TimerEvent: {}
+[15.795848] (-) TimerEvent: {}
+[15.896818] (-) TimerEvent: {}
+[15.997756] (-) TimerEvent: {}
+[16.098933] (-) TimerEvent: {}
+[16.199955] (-) TimerEvent: {}
+[16.300973] (-) TimerEvent: {}
+[16.402001] (-) TimerEvent: {}
+[16.503076] (-) TimerEvent: {}
+[16.604191] (-) TimerEvent: {}
+[16.705118] (-) TimerEvent: {}
+[16.806875] (-) TimerEvent: {}
+[16.907942] (-) TimerEvent: {}
+[17.009091] (-) TimerEvent: {}
+[17.109989] (-) TimerEvent: {}
+[17.210873] (-) TimerEvent: {}
+[17.311654] (-) TimerEvent: {}
+[17.412458] (-) TimerEvent: {}
+[17.513401] (-) TimerEvent: {}
+[17.614424] (-) TimerEvent: {}
+[17.715184] (-) TimerEvent: {}
+[17.816041] (-) TimerEvent: {}
+[17.916722] (-) TimerEvent: {}
+[18.017775] (-) TimerEvent: {}
+[18.118993] (-) TimerEvent: {}
+[18.219961] (-) TimerEvent: {}
+[18.321335] (-) TimerEvent: {}
+[18.422266] (-) TimerEvent: {}
+[18.523097] (-) TimerEvent: {}
+[18.623989] (-) TimerEvent: {}
+[18.724688] (-) TimerEvent: {}
+[18.825534] (-) TimerEvent: {}
+[18.926543] (-) TimerEvent: {}
+[19.027886] (-) TimerEvent: {}
+[19.128800] (-) TimerEvent: {}
+[19.229812] (-) TimerEvent: {}
+[19.330523] (-) TimerEvent: {}
+[19.431267] (-) TimerEvent: {}
+[19.532196] (-) TimerEvent: {}
+[19.633620] (-) TimerEvent: {}
+[19.735026] (-) TimerEvent: {}
+[19.836329] (-) TimerEvent: {}
+[19.937670] (-) TimerEvent: {}
+[20.038690] (-) TimerEvent: {}
+[20.139729] (-) TimerEvent: {}
+[20.240687] (-) TimerEvent: {}
+[20.341752] (-) TimerEvent: {}
+[20.443263] (-) TimerEvent: {}
+[20.544230] (-) TimerEvent: {}
+[20.645424] (-) TimerEvent: {}
+[20.746514] (-) TimerEvent: {}
+[20.847563] (-) TimerEvent: {}
+[20.949065] (-) TimerEvent: {}
+[21.050187] (-) TimerEvent: {}
+[21.151406] (-) TimerEvent: {}
+[21.252354] (-) TimerEvent: {}
+[21.353563] (-) TimerEvent: {}
+[21.454528] (-) TimerEvent: {}
+[21.555543] (-) TimerEvent: {}
+[21.656778] (-) TimerEvent: {}
+[21.757977] (-) TimerEvent: {}
+[21.859511] (-) TimerEvent: {}
+[21.960604] (-) TimerEvent: {}
+[22.061838] (-) TimerEvent: {}
+[22.162866] (-) TimerEvent: {}
+[22.263889] (-) TimerEvent: {}
+[22.364815] (-) TimerEvent: {}
+[22.465990] (-) TimerEvent: {}
+[22.567023] (-) TimerEvent: {}
+[22.668428] (-) TimerEvent: {}
+[22.769480] (-) TimerEvent: {}
+[22.870515] (-) TimerEvent: {}
+[22.971603] (-) TimerEvent: {}
+[23.072615] (-) TimerEvent: {}
+[23.173394] (-) TimerEvent: {}
+[23.274504] (-) TimerEvent: {}
+[23.375812] (-) TimerEvent: {}
+[23.477044] (-) TimerEvent: {}
+[23.578209] (-) TimerEvent: {}
+[23.679552] (-) TimerEvent: {}
+[23.780698] (-) TimerEvent: {}
+[23.881350] (-) TimerEvent: {}
+[23.971911] (scout_mini_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.981462] (-) TimerEvent: {}
+[24.082508] (-) TimerEvent: {}
+[24.183229] (-) TimerEvent: {}
+[24.284121] (-) TimerEvent: {}
+[24.385050] (-) TimerEvent: {}
+[24.485955] (-) TimerEvent: {}
+[24.587151] (-) TimerEvent: {}
+[24.689224] (-) TimerEvent: {}
+[24.790350] (-) TimerEvent: {}
+[24.891638] (-) TimerEvent: {}
+[24.992774] (-) TimerEvent: {}
+[25.015944] (scout_mini_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[25.093001] (-) TimerEvent: {}
+[25.194378] (-) TimerEvent: {}
+[25.295854] (-) TimerEvent: {}
+[25.396726] (-) TimerEvent: {}
+[25.497825] (-) TimerEvent: {}
+[25.598841] (-) TimerEvent: {}
+[25.699992] (-) TimerEvent: {}
+[25.801143] (-) TimerEvent: {}
+[25.833702] (scout_mini_ros2) StdoutLine: {'line': b'-- Build files have been written to: /apollo/ros_ws/build/scout_mini_ros2\n'}
+[25.841533] (scout_mini_ros2) CommandEnded: {'returncode': 0}
+[25.859598] (scout_mini_ros2) JobProgress: {'identifier': 'scout_mini_ros2', 'progress': 'build'}
+[25.881280] (scout_mini_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/apollo/ros_ws/build/scout_mini_ros2', '--', '-j20', '-l20'], 'cwd': '/apollo/ros_ws/build/scout_mini_ros2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-cb9ff3fc-6b6c-42de-a721-dc533f5c362f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1e787fc9-b1e4-49bc-ac72-c7168d9c7b9e.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X2","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[25.901196] (-) TimerEvent: {}
+[26.001954] (-) TimerEvent: {}
+[26.103858] (-) TimerEvent: {}
+[26.204887] (-) TimerEvent: {}
+[26.305896] (-) TimerEvent: {}
+[26.406984] (-) TimerEvent: {}
+[26.508115] (-) TimerEvent: {}
+[26.609174] (-) TimerEvent: {}
+[26.710324] (-) TimerEvent: {}
+[26.811168] (-) TimerEvent: {}
+[26.911795] (-) TimerEvent: {}
+[27.013263] (-) TimerEvent: {}
+[27.114739] (-) TimerEvent: {}
+[27.215948] (-) TimerEvent: {}
+[27.317025] (-) TimerEvent: {}
+[27.418293] (-) TimerEvent: {}
+[27.519482] (-) TimerEvent: {}
+[27.620642] (-) TimerEvent: {}
+[27.721744] (-) TimerEvent: {}
+[27.823012] (-) TimerEvent: {}
+[27.856254] (scout_mini_ros2) CommandEnded: {'returncode': 0}
+[27.902232] (scout_mini_ros2) JobProgress: {'identifier': 'scout_mini_ros2', 'progress': 'install'}
+[27.920627] (scout_mini_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/apollo/ros_ws/build/scout_mini_ros2'], 'cwd': '/apollo/ros_ws/build/scout_mini_ros2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_mini_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-cb9ff3fc-6b6c-42de-a721-dc533f5c362f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1e787fc9-b1e4-49bc-ac72-c7168d9c7b9e.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X2","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble')]), 'shell': False}
+[27.923055] (-) TimerEvent: {}
+[28.023730] (-) TimerEvent: {}
+[28.124827] (-) TimerEvent: {}
+[28.226520] (-) TimerEvent: {}
+[28.272271] (scout_mini_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.326857] (-) TimerEvent: {}
+[28.428566] (-) TimerEvent: {}
+[28.433478] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/ament_index/resource_index/package_run_dependencies/scout_mini_ros2\n'}
+[28.528840] (-) TimerEvent: {}
+[28.629973] (-) TimerEvent: {}
+[28.730839] (-) TimerEvent: {}
+[28.832197] (-) TimerEvent: {}
+[28.933857] (-) TimerEvent: {}
+[28.961198] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/ament_index/resource_index/parent_prefix_path/scout_mini_ros2\n'}
+[29.034047] (-) TimerEvent: {}
+[29.135213] (-) TimerEvent: {}
+[29.236237] (-) TimerEvent: {}
+[29.337460] (-) TimerEvent: {}
+[29.338993] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/ament_prefix_path.sh\n'}
+[29.437621] (-) TimerEvent: {}
+[29.538634] (-) TimerEvent: {}
+[29.614383] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/ament_prefix_path.dsv\n'}
+[29.638750] (-) TimerEvent: {}
+[29.740036] (-) TimerEvent: {}
+[29.841185] (-) TimerEvent: {}
+[29.908112] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/path.sh\n'}
+[29.941253] (-) TimerEvent: {}
+[30.042214] (-) TimerEvent: {}
+[30.143709] (-) TimerEvent: {}
+[30.181798] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/environment/path.dsv\n'}
+[30.244002] (-) TimerEvent: {}
+[30.345073] (-) TimerEvent: {}
+[30.446400] (-) TimerEvent: {}
+[30.493401] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.bash\n'}
+[30.546560] (-) TimerEvent: {}
+[30.647555] (-) TimerEvent: {}
+[30.740171] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.sh\n'}
+[30.747792] (-) TimerEvent: {}
+[30.849105] (-) TimerEvent: {}
+[30.950349] (-) TimerEvent: {}
+[31.001978] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.zsh\n'}
+[31.050522] (-) TimerEvent: {}
+[31.151509] (-) TimerEvent: {}
+[31.252598] (-) TimerEvent: {}
+[31.271344] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/local_setup.dsv\n'}
+[31.352743] (-) TimerEvent: {}
+[31.453940] (-) TimerEvent: {}
+[31.539703] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.dsv\n'}
+[31.554036] (-) TimerEvent: {}
+[31.655239] (-) TimerEvent: {}
+[31.756575] (-) TimerEvent: {}
+[31.857607] (-) TimerEvent: {}
+[31.898838] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/ament_index/resource_index/packages/scout_mini_ros2\n'}
+[31.957781] (-) TimerEvent: {}
+[32.058896] (-) TimerEvent: {}
+[32.159633] (-) TimerEvent: {}
+[32.260531] (-) TimerEvent: {}
+[32.296382] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/cmake/scout_mini_ros2Config.cmake\n'}
+[32.360600] (-) TimerEvent: {}
+[32.462137] (-) TimerEvent: {}
+[32.563132] (-) TimerEvent: {}
+[32.577437] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/cmake/scout_mini_ros2Config-version.cmake\n'}
+[32.663300] (-) TimerEvent: {}
+[32.764332] (-) TimerEvent: {}
+[32.865570] (-) TimerEvent: {}
+[32.879019] (scout_mini_ros2) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.xml\n'}
+[32.965821] (-) TimerEvent: {}
+[33.066938] (-) TimerEvent: {}
+[33.072931] (scout_mini_ros2) CommandEnded: {'returncode': 0}
+[33.167200] (-) TimerEvent: {}
+[33.268688] (-) TimerEvent: {}
+[33.370013] (-) TimerEvent: {}
+[33.470992] (-) TimerEvent: {}
+[33.572264] (-) TimerEvent: {}
+[33.673439] (-) TimerEvent: {}
+[33.774666] (-) TimerEvent: {}
+[33.875731] (-) TimerEvent: {}
+[33.978012] (-) TimerEvent: {}
+[34.096510] (-) TimerEvent: {}
+[34.197881] (-) TimerEvent: {}
+[34.299089] (-) TimerEvent: {}
+[34.400501] (-) TimerEvent: {}
+[34.501210] (-) TimerEvent: {}
+[34.602036] (-) TimerEvent: {}
+[34.702601] (-) TimerEvent: {}
+[34.803314] (-) TimerEvent: {}
+[34.904171] (-) TimerEvent: {}
+[34.985987] (scout_mini_ros2) JobEnded: {'identifier': 'scout_mini_ros2', 'rc': 0}
+[35.062642] (-) TimerEvent: {}
+[35.063565] (-) EventReactorShutdown: {}

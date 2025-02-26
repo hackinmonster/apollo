@@ -1,0 +1,2 @@
+Invoking command in '/apollo/ros_ws/build/scout_mini_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_hardware -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_hardware
+Invoked command in '/apollo/ros_ws/build/scout_mini_hardware' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_hardware -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_hardware

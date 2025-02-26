@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /my_code/ros_ws/src/scout_mini_msgs
+CMAKE_SOURCE_DIR = /apollo/ros_ws/src/scout_mini_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /my_code/ros_ws/build/scout_mini_msgs
+CMAKE_BINARY_DIR = /apollo/ros_ws/build/scout_mini_msgs
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /my_code/ros_ws/build/scout_mini_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_code/ros_ws/src/scout_mini_msgs /my_code/ros_ws/src/scout_mini_msgs /my_code/ros_ws/build/scout_mini_msgs /my_code/ros_ws/build/scout_mini_msgs /my_code/ros_ws/build/scout_mini_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /apollo/ros_ws/build/scout_mini_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /apollo/ros_ws/src/scout_mini_msgs /apollo/ros_ws/src/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs /apollo/ros_ws/build/scout_mini_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

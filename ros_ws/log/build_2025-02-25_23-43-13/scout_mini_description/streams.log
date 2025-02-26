@@ -1,0 +1,27 @@
+[0.183s] Invoking command in '/apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_description -- -j20 -l20
+[0.478s] Invoked command in '/apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_description -- -j20 -l20
+[0.548s] Invoking command in '/apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_description
+[0.563s] -- Install configuration: ""
+[0.589s] -- Execute custom install script
+[0.672s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/description_launch.py
+[0.715s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/rviz2_launch.py
+[0.773s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes/body.dae
+[0.865s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes/wheel.dae
+[0.928s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/rviz/scout_mini.rviz
+[1.034s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/urdf/scout_mini.urdf.xacro
+[1.264s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/package_run_dependencies/scout_mini_description
+[1.460s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/parent_prefix_path/scout_mini_description
+[1.510s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/ament_prefix_path.sh
+[1.557s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/ament_prefix_path.dsv
+[1.589s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/path.sh
+[1.626s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/path.dsv
+[1.654s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.bash
+[1.682s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.sh
+[1.715s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.zsh
+[1.777s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.dsv
+[1.812s] -- Symlinking: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.dsv
+[2.107s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/packages/scout_mini_description
+[2.240s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/cmake/scout_mini_descriptionConfig.cmake
+[2.342s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/cmake/scout_mini_descriptionConfig-version.cmake
+[2.447s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.xml
+[2.482s] Invoked command in '/apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_description

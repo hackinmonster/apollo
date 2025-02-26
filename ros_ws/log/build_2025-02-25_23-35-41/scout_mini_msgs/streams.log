@@ -1,0 +1,32 @@
+[0.776s] Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_msgs -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_msgs
+[3.548s] -- The C compiler identification is GNU 11.4.0
+[4.977s] -- The CXX compiler identification is GNU 11.4.0
+[5.257s] -- Detecting C compiler ABI info
+[8.351s] -- Detecting C compiler ABI info - done
+[8.452s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.480s] -- Detecting C compile features
+[8.483s] -- Detecting C compile features - done
+[8.733s] -- Detecting CXX compiler ABI info
+[12.019s] -- Detecting CXX compiler ABI info - done
+[12.107s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.112s] -- Detecting CXX compile features
+[12.146s] -- Detecting CXX compile features - done
+[12.648s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[15.426s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[24.577s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[25.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[27.218s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[32.530s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[36.279s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[37.469s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[42.579s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[49.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[56.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[56.906s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[57.363s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[58.204s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[58.207s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[58.210s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[58.213s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[58.439s] -- Found PythonExtra: .so  
+[58.695s] Invoked command in '/apollo/ros_ws/build/scout_mini_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_msgs -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_msgs

@@ -1,3 +1,0 @@
-Invoking command in '/my_code/ros_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /my_code/ros_ws/build/scout_mini_base -- -j20 -l20
-Invoked command in '/my_code/ros_ws/build/scout_mini_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /my_code/ros_ws/build/scout_mini_base -- -j20 -l20
-Invoking command in '/my_code/ros_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /my_code/ros_ws/build/scout_mini_base

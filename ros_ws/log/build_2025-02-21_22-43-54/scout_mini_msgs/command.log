@@ -1,1 +1,0 @@
-Invoking command in '/my_code/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /my_code/ros_ws/build/scout_mini_msgs -- -j20 -l20

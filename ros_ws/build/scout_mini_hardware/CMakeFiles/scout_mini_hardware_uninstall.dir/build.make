@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /my_code/ros_ws/src/scout_mini_hardware
+CMAKE_SOURCE_DIR = /apollo/ros_ws/src/scout_mini_hardware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /my_code/ros_ws/build/scout_mini_hardware
+CMAKE_BINARY_DIR = /apollo/ros_ws/build/scout_mini_hardware
 
 # Utility rule file for scout_mini_hardware_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/scout_mini_hardware_uninstall.dir/compiler_depend.make
 include CMakeFiles/scout_mini_hardware_uninstall.dir/progress.make
 
 CMakeFiles/scout_mini_hardware_uninstall:
-	/usr/bin/cmake -P /my_code/ros_ws/build/scout_mini_hardware/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /apollo/ros_ws/build/scout_mini_hardware/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 scout_mini_hardware_uninstall: CMakeFiles/scout_mini_hardware_uninstall
 scout_mini_hardware_uninstall: CMakeFiles/scout_mini_hardware_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/scout_mini_hardware_uninstall.dir/clean:
 .PHONY : CMakeFiles/scout_mini_hardware_uninstall.dir/clean
 
 CMakeFiles/scout_mini_hardware_uninstall.dir/depend:
-	cd /my_code/ros_ws/build/scout_mini_hardware && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /my_code/ros_ws/src/scout_mini_hardware /my_code/ros_ws/src/scout_mini_hardware /my_code/ros_ws/build/scout_mini_hardware /my_code/ros_ws/build/scout_mini_hardware /my_code/ros_ws/build/scout_mini_hardware/CMakeFiles/scout_mini_hardware_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /apollo/ros_ws/build/scout_mini_hardware && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /apollo/ros_ws/src/scout_mini_hardware /apollo/ros_ws/src/scout_mini_hardware /apollo/ros_ws/build/scout_mini_hardware /apollo/ros_ws/build/scout_mini_hardware /apollo/ros_ws/build/scout_mini_hardware/CMakeFiles/scout_mini_hardware_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/scout_mini_hardware_uninstall.dir/depend
 

@@ -1,0 +1,1349 @@
+[0.000000] (-) TimerEvent: {}
+[0.001887] (-) JobUnselected: {'identifier': 'scout_mini_base'}
+[0.002491] (-) JobUnselected: {'identifier': 'scout_mini_description'}
+[0.003207] (-) JobUnselected: {'identifier': 'scout_mini_hardware'}
+[0.004234] (-) JobUnselected: {'identifier': 'scout_mini_ros2'}
+[0.005048] (scout_mini_msgs) JobQueued: {'identifier': 'scout_mini_msgs', 'dependencies': OrderedDict()}
+[0.005798] (scout_mini_msgs) JobStarted: {'identifier': 'scout_mini_msgs'}
+[0.073708] (scout_mini_msgs) JobProgress: {'identifier': 'scout_mini_msgs', 'progress': 'cmake'}
+[0.095374] (-) TimerEvent: {}
+[0.141152] (scout_mini_msgs) JobProgress: {'identifier': 'scout_mini_msgs', 'progress': 'build'}
+[0.172048] (scout_mini_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/apollo/ros_ws/build/scout_mini_msgs', '--', '-j20', '-l20'], 'cwd': '/apollo/ros_ws/build/scout_mini_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-cb9ff3fc-6b6c-42de-a721-dc533f5c362f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1e787fc9-b1e4-49bc-ac72-c7168d9c7b9e.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X2","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.197267] (-) TimerEvent: {}
+[0.298043] (-) TimerEvent: {}
+[0.399254] (-) TimerEvent: {}
+[0.500824] (-) TimerEvent: {}
+[0.601772] (-) TimerEvent: {}
+[0.702613] (-) TimerEvent: {}
+[0.794757] (scout_mini_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.802686] (-) TimerEvent: {}
+[0.867960] (scout_mini_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_scout_mini_msgs\n'}
+[0.902822] (-) TimerEvent: {}
+[0.908131] (scout_mini_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.002992] (-) TimerEvent: {}
+[1.103853] (-) TimerEvent: {}
+[1.204808] (-) TimerEvent: {}
+[1.305947] (-) TimerEvent: {}
+[1.324326] (scout_mini_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.327354] (scout_mini_msgs) StdoutLine: {'line': b'creating scout_mini_msgs.egg-info\n'}
+[1.332628] (scout_mini_msgs) StdoutLine: {'line': b'writing scout_mini_msgs.egg-info/PKG-INFO\n'}
+[1.344266] (scout_mini_msgs) StdoutLine: {'line': b'writing dependency_links to scout_mini_msgs.egg-info/dependency_links.txt\n'}
+[1.360919] (scout_mini_msgs) StdoutLine: {'line': b'writing top-level names to scout_mini_msgs.egg-info/top_level.txt\n'}
+[1.372506] (scout_mini_msgs) StdoutLine: {'line': b"writing manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'\n"}
+[1.406142] (-) TimerEvent: {}
+[1.418734] (scout_mini_msgs) StdoutLine: {'line': b"reading manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'\n"}
+[1.483304] (scout_mini_msgs) StdoutLine: {'line': b"writing manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'\n"}
+[1.506254] (-) TimerEvent: {}
+[1.546570] (scout_mini_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_scout_mini_msgs_egg\n'}
+[1.606383] (-) TimerEvent: {}
+[1.707230] (-) TimerEvent: {}
+[1.808509] (-) TimerEvent: {}
+[1.909527] (-) TimerEvent: {}
+[2.010512] (-) TimerEvent: {}
+[2.111558] (-) TimerEvent: {}
+[2.212583] (-) TimerEvent: {}
+[2.314532] (-) TimerEvent: {}
+[2.416222] (-) TimerEvent: {}
+[2.518496] (-) TimerEvent: {}
+[2.623940] (-) TimerEvent: {}
+[2.725801] (-) TimerEvent: {}
+[2.826819] (-) TimerEvent: {}
+[2.927874] (-) TimerEvent: {}
+[3.029562] (-) TimerEvent: {}
+[3.130777] (-) TimerEvent: {}
+[3.234418] (-) TimerEvent: {}
+[3.336023] (-) TimerEvent: {}
+[3.437120] (-) TimerEvent: {}
+[3.538946] (-) TimerEvent: {}
+[3.640802] (-) TimerEvent: {}
+[3.653364] (scout_mini_msgs) StdoutLine: {'line': b'[  2%] Built target scout_mini_msgs__cpp\n'}
+[3.741032] (-) TimerEvent: {}
+[3.778173] (scout_mini_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.782824] (scout_mini_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.841247] (-) TimerEvent: {}
+[3.849639] (scout_mini_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.941476] (-) TimerEvent: {}
+[4.043762] (-) TimerEvent: {}
+[4.145313] (-) TimerEvent: {}
+[4.246150] (-) TimerEvent: {}
+[4.347616] (-) TimerEvent: {}
+[4.363847] (scout_mini_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o\x1b[0m\n'}
+[4.383860] (scout_mini_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o\x1b[0m\n'}
+[4.404407] (scout_mini_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o\x1b[0m\n'}
+[4.417059] (scout_mini_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o\x1b[0m\n'}
+[4.434956] (scout_mini_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o\x1b[0m\n'}
+[4.447756] (-) TimerEvent: {}
+[4.452957] (scout_mini_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o\x1b[0m\n'}
+[4.547849] (-) TimerEvent: {}
+[4.648874] (-) TimerEvent: {}
+[4.750187] (-) TimerEvent: {}
+[4.803300] (scout_mini_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libscout_mini_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.850458] (-) TimerEvent: {}
+[4.951670] (-) TimerEvent: {}
+[5.053502] (-) TimerEvent: {}
+[5.154388] (-) TimerEvent: {}
+[5.256220] (-) TimerEvent: {}
+[5.315692] (scout_mini_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/driver_state__type_support.cpp.o\x1b[0m\n'}
+[5.335379] (scout_mini_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/fault_state__type_support.cpp.o\x1b[0m\n'}
+[5.356583] (-) TimerEvent: {}
+[5.362142] (scout_mini_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/light_command__type_support.cpp.o\x1b[0m\n'}
+[5.395853] (scout_mini_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/light_state__type_support.cpp.o\x1b[0m\n'}
+[5.414755] (scout_mini_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[5.441861] (scout_mini_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/robot_state__type_support.cpp.o\x1b[0m\n'}
+[5.456711] (-) TimerEvent: {}
+[5.557827] (-) TimerEvent: {}
+[5.659042] (-) TimerEvent: {}
+[5.731940] (scout_mini_msgs) StdoutLine: {'line': b'[ 25%] Built target scout_mini_msgs__rosidl_generator_c\n'}
+[5.759116] (-) TimerEvent: {}
+[5.860397] (-) TimerEvent: {}
+[5.917403] (scout_mini_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.922411] (scout_mini_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.928767] (scout_mini_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.960509] (-) TimerEvent: {}
+[6.053563] (scout_mini_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/driver_state__type_support.cpp.o\x1b[0m\n'}
+[6.060614] (-) TimerEvent: {}
+[6.072691] (scout_mini_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/fault_state__type_support.cpp.o\x1b[0m\n'}
+[6.088554] (scout_mini_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/light_command__type_support.cpp.o\x1b[0m\n'}
+[6.110441] (scout_mini_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/light_state__type_support.cpp.o\x1b[0m\n'}
+[6.123768] (scout_mini_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/motor_state__type_support.cpp.o\x1b[0m\n'}
+[6.139672] (scout_mini_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/robot_state__type_support.cpp.o\x1b[0m\n'}
+[6.160764] (-) TimerEvent: {}
+[6.223660] (scout_mini_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/driver_state__type_support.cpp.o\x1b[0m\n'}
+[6.251134] (scout_mini_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/fault_state__type_support.cpp.o\x1b[0m\n'}
+[6.261171] (-) TimerEvent: {}
+[6.274722] (scout_mini_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/light_command__type_support.cpp.o\x1b[0m\n'}
+[6.300316] (scout_mini_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/light_state__type_support.cpp.o\x1b[0m\n'}
+[6.328166] (scout_mini_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o\x1b[0m\n'}
+[6.361323] (-) TimerEvent: {}
+[6.388777] (scout_mini_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o\x1b[0m\n'}
+[6.444761] (scout_mini_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.461489] (-) TimerEvent: {}
+[6.562638] (-) TimerEvent: {}
+[6.663996] (-) TimerEvent: {}
+[6.765233] (-) TimerEvent: {}
+[6.867047] (-) TimerEvent: {}
+[6.968215] (-) TimerEvent: {}
+[7.070156] (-) TimerEvent: {}
+[7.111022] (scout_mini_msgs) StdoutLine: {'line': b'[ 47%] Built target scout_mini_msgs__rosidl_typesupport_cpp\n'}
+[7.170300] (-) TimerEvent: {}
+[7.271490] (-) TimerEvent: {}
+[7.288135] (scout_mini_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/driver_state__type_support.cpp.o\x1b[0m\n'}
+[7.311030] (scout_mini_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/fault_state__type_support.cpp.o\x1b[0m\n'}
+[7.318168] (scout_mini_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/light_command__type_support.cpp.o\x1b[0m\n'}
+[7.334827] (scout_mini_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/light_state__type_support.cpp.o\x1b[0m\n'}
+[7.351719] (scout_mini_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[7.371598] (-) TimerEvent: {}
+[7.395641] (scout_mini_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/robot_state__type_support.cpp.o\x1b[0m\n'}
+[7.471785] (-) TimerEvent: {}
+[7.573238] (-) TimerEvent: {}
+[7.674273] (-) TimerEvent: {}
+[7.719251] (scout_mini_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.771190] (scout_mini_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.774371] (-) TimerEvent: {}
+[7.875487] (-) TimerEvent: {}
+[7.977676] (-) TimerEvent: {}
+[8.057939] (scout_mini_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.075019] (scout_mini_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/driver_state__type_support_c.cpp.o\x1b[0m\n'}
+[8.080774] (-) TimerEvent: {}
+[8.097680] (scout_mini_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/driver_state__type_support.c.o\x1b[0m\n'}
+[8.105015] (scout_mini_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/fault_state__type_support.c.o\x1b[0m\n'}
+[8.132296] (scout_mini_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/fault_state__type_support_c.cpp.o\x1b[0m\n'}
+[8.159434] (scout_mini_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/light_command__type_support_c.cpp.o\x1b[0m\n'}
+[8.165527] (scout_mini_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/light_command__type_support.c.o\x1b[0m\n'}
+[8.180162] (scout_mini_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/light_state__type_support_c.cpp.o\x1b[0m\n'}
+[8.186227] (-) TimerEvent: {}
+[8.188035] (scout_mini_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/light_state__type_support.c.o\x1b[0m\n'}
+[8.200523] (scout_mini_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/motor_state__type_support.c.o\x1b[0m\n'}
+[8.205472] (scout_mini_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/motor_state__type_support_c.cpp.o\x1b[0m\n'}
+[8.218268] (scout_mini_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/robot_state__type_support_c.cpp.o\x1b[0m\n'}
+[8.224790] (scout_mini_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/robot_state__type_support.c.o\x1b[0m\n'}
+[8.286410] (-) TimerEvent: {}
+[8.388609] (-) TimerEvent: {}
+[8.489717] (-) TimerEvent: {}
+[8.591028] (-) TimerEvent: {}
+[8.622352] (scout_mini_msgs) StdoutLine: {'line': b'[ 77%] Built target scout_mini_msgs__rosidl_typesupport_c\n'}
+[8.691201] (-) TimerEvent: {}
+[8.792624] (-) TimerEvent: {}
+[8.894157] (-) TimerEvent: {}
+[8.997163] (-) TimerEvent: {}
+[9.061020] (scout_mini_msgs) StdoutLine: {'line': b'[ 78%] Built target scout_mini_msgs__rosidl_typesupport_introspection_cpp\n'}
+[9.064398] (scout_mini_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library libscout_mini_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.097335] (-) TimerEvent: {}
+[9.198503] (-) TimerEvent: {}
+[9.300391] (-) TimerEvent: {}
+[9.402805] (-) TimerEvent: {}
+[9.504216] (-) TimerEvent: {}
+[9.546070] (scout_mini_msgs) StdoutLine: {'line': b'[ 78%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[9.604449] (-) TimerEvent: {}
+[9.705306] (-) TimerEvent: {}
+[9.806255] (-) TimerEvent: {}
+[9.879516] (scout_mini_msgs) StdoutLine: {'line': b'[ 78%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c\n'}
+[9.906698] (-) TimerEvent: {}
+[10.008322] (-) TimerEvent: {}
+[10.109623] (-) TimerEvent: {}
+[10.211772] (-) TimerEvent: {}
+[10.282200] (scout_mini_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.312190] (-) TimerEvent: {}
+[10.414463] (-) TimerEvent: {}
+[10.516257] (-) TimerEvent: {}
+[10.618432] (-) TimerEvent: {}
+[10.720140] (-) TimerEvent: {}
+[10.823254] (-) TimerEvent: {}
+[10.925030] (-) TimerEvent: {}
+[11.026065] (-) TimerEvent: {}
+[11.127385] (-) TimerEvent: {}
+[11.228599] (-) TimerEvent: {}
+[11.330241] (-) TimerEvent: {}
+[11.417049] (scout_mini_msgs) StdoutLine: {'line': b'[ 80%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c\n'}
+[11.430333] (-) TimerEvent: {}
+[11.531805] (-) TimerEvent: {}
+[11.632232] (scout_mini_msgs) StdoutLine: {'line': b'[ 80%] Built target scout_mini_msgs\n'}
+[11.637602] (-) TimerEvent: {}
+[11.738509] (-) TimerEvent: {}
+[11.839966] (-) TimerEvent: {}
+[11.941282] (-) TimerEvent: {}
+[12.021403] (scout_mini_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.041494] (-) TimerEvent: {}
+[12.142848] (-) TimerEvent: {}
+[12.244132] (-) TimerEvent: {}
+[12.345224] (-) TimerEvent: {}
+[12.446008] (-) TimerEvent: {}
+[12.546857] (-) TimerEvent: {}
+[12.647790] (-) TimerEvent: {}
+[12.748771] (-) TimerEvent: {}
+[12.849912] (-) TimerEvent: {}
+[12.951225] (-) TimerEvent: {}
+[13.052048] (-) TimerEvent: {}
+[13.153096] (-) TimerEvent: {}
+[13.253890] (-) TimerEvent: {}
+[13.354928] (-) TimerEvent: {}
+[13.455865] (-) TimerEvent: {}
+[13.559166] (-) TimerEvent: {}
+[13.660331] (-) TimerEvent: {}
+[13.762985] (-) TimerEvent: {}
+[13.864202] (-) TimerEvent: {}
+[13.964891] (-) TimerEvent: {}
+[14.065719] (-) TimerEvent: {}
+[14.166873] (-) TimerEvent: {}
+[14.268208] (-) TimerEvent: {}
+[14.369312] (-) TimerEvent: {}
+[14.470047] (-) TimerEvent: {}
+[14.572171] (-) TimerEvent: {}
+[14.609334] (scout_mini_msgs) StdoutLine: {'line': b'[ 81%] Built target scout_mini_msgs__py\n'}
+[14.672286] (-) TimerEvent: {}
+[14.773396] (-) TimerEvent: {}
+[14.874318] (-) TimerEvent: {}
+[14.945488] (scout_mini_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_driver_state_s.c.o\x1b[0m\n'}
+[14.954239] (scout_mini_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_fault_state_s.c.o\x1b[0m\n'}
+[14.974253] (scout_mini_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_light_command_s.c.o\x1b[0m\n'}
+[14.979204] (-) TimerEvent: {}
+[14.984915] (scout_mini_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_light_state_s.c.o\x1b[0m\n'}
+[14.999463] (scout_mini_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_motor_state_s.c.o\x1b[0m\n'}
+[15.013111] (scout_mini_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_robot_state_s.c.o\x1b[0m\n'}
+[15.079367] (-) TimerEvent: {}
+[15.180150] (-) TimerEvent: {}
+[15.282630] (-) TimerEvent: {}
+[15.388753] (-) TimerEvent: {}
+[15.489697] (-) TimerEvent: {}
+[15.590684] (-) TimerEvent: {}
+[15.691651] (-) TimerEvent: {}
+[15.792980] (-) TimerEvent: {}
+[15.894303] (-) TimerEvent: {}
+[15.995726] (-) TimerEvent: {}
+[16.096964] (-) TimerEvent: {}
+[16.149352] (scout_mini_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/libscout_mini_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[16.197059] (-) TimerEvent: {}
+[16.298289] (-) TimerEvent: {}
+[16.411841] (-) TimerEvent: {}
+[16.512928] (-) TimerEvent: {}
+[16.614177] (-) TimerEvent: {}
+[16.716570] (-) TimerEvent: {}
+[16.818658] (-) TimerEvent: {}
+[16.920124] (-) TimerEvent: {}
+[17.021443] (-) TimerEvent: {}
+[17.122799] (-) TimerEvent: {}
+[17.165533] (scout_mini_msgs) StdoutLine: {'line': b'[ 91%] Built target scout_mini_msgs__rosidl_generator_py\n'}
+[17.222879] (-) TimerEvent: {}
+[17.307338] (scout_mini_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.308923] (scout_mini_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[17.310343] (scout_mini_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.322961] (-) TimerEvent: {}
+[17.423783] (-) TimerEvent: {}
+[17.525041] (-) TimerEvent: {}
+[17.626148] (-) TimerEvent: {}
+[17.727492] (-) TimerEvent: {}
+[17.828597] (-) TimerEvent: {}
+[17.929370] (-) TimerEvent: {}
+[18.030091] (-) TimerEvent: {}
+[18.130901] (-) TimerEvent: {}
+[18.231548] (-) TimerEvent: {}
+[18.332113] (-) TimerEvent: {}
+[18.380431] (scout_mini_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.432274] (-) TimerEvent: {}
+[18.509200] (scout_mini_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.532494] (-) TimerEvent: {}
+[18.539796] (scout_mini_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.632615] (-) TimerEvent: {}
+[18.733437] (-) TimerEvent: {}
+[18.819252] (scout_mini_msgs) StdoutLine: {'line': b'[100%] Built target scout_mini_msgs__rosidl_typesupport_c__pyext\n'}
+[18.833622] (-) TimerEvent: {}
+[18.874744] (scout_mini_msgs) StdoutLine: {'line': b'[100%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[18.910441] (scout_mini_msgs) StdoutLine: {'line': b'[100%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.933845] (-) TimerEvent: {}
+[19.035253] (-) TimerEvent: {}
+[19.136547] (-) TimerEvent: {}
+[19.237922] (-) TimerEvent: {}
+[19.338810] (-) TimerEvent: {}
+[19.439610] (-) TimerEvent: {}
+[19.540679] (-) TimerEvent: {}
+[19.642071] (-) TimerEvent: {}
+[19.743496] (-) TimerEvent: {}
+[19.844532] (-) TimerEvent: {}
+[19.879211] (scout_mini_msgs) CommandEnded: {'returncode': 0}
+[19.929660] (scout_mini_msgs) JobProgress: {'identifier': 'scout_mini_msgs', 'progress': 'install'}
+[19.944677] (-) TimerEvent: {}
+[19.955104] (scout_mini_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/apollo/ros_ws/build/scout_mini_msgs'], 'cwd': '/apollo/ros_ws/build/scout_mini_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-cb9ff3fc-6b6c-42de-a721-dc533f5c362f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-a2388610-56f0-4a12-bfda-f9db1d4ef761.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1e787fc9-b1e4-49bc-ac72-c7168d9c7b9e.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X2","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-4086bcae30.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_mini_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.979624] (scout_mini_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.044808] (-) TimerEvent: {}
+[20.130138] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/rosidl_interfaces/scout_mini_msgs\n'}
+[20.144894] (-) TimerEvent: {}
+[20.243800] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[20.245259] (-) TimerEvent: {}
+[20.345823] (-) TimerEvent: {}
+[20.379514] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[20.445983] (-) TimerEvent: {}
+[20.525060] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[20.546069] (-) TimerEvent: {}
+[20.647196] (-) TimerEvent: {}
+[20.695736] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__functions.c\n'}
+[20.747328] (-) TimerEvent: {}
+[20.848166] (-) TimerEvent: {}
+[20.949124] (-) TimerEvent: {}
+[21.050328] (-) TimerEvent: {}
+[21.056575] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__functions.h\n'}
+[21.150479] (-) TimerEvent: {}
+[21.251900] (-) TimerEvent: {}
+[21.352886] (-) TimerEvent: {}
+[21.454634] (-) TimerEvent: {}
+[21.524382] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__struct.h\n'}
+[21.554762] (-) TimerEvent: {}
+[21.656039] (-) TimerEvent: {}
+[21.758408] (-) TimerEvent: {}
+[21.859616] (-) TimerEvent: {}
+[21.935187] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.h\n'}
+[21.959790] (-) TimerEvent: {}
+[22.061078] (-) TimerEvent: {}
+[22.162551] (-) TimerEvent: {}
+[22.264020] (-) TimerEvent: {}
+[22.283220] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__functions.c\n'}
+[22.364177] (-) TimerEvent: {}
+[22.465289] (-) TimerEvent: {}
+[22.566331] (-) TimerEvent: {}
+[22.603445] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__functions.h\n'}
+[22.666460] (-) TimerEvent: {}
+[22.767838] (-) TimerEvent: {}
+[22.868907] (-) TimerEvent: {}
+[22.871918] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__struct.h\n'}
+[22.969219] (-) TimerEvent: {}
+[23.070462] (-) TimerEvent: {}
+[23.172099] (-) TimerEvent: {}
+[23.184116] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.h\n'}
+[23.272325] (-) TimerEvent: {}
+[23.373454] (-) TimerEvent: {}
+[23.474361] (-) TimerEvent: {}
+[23.575397] (-) TimerEvent: {}
+[23.607530] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__functions.c\n'}
+[23.675498] (-) TimerEvent: {}
+[23.776559] (-) TimerEvent: {}
+[23.877641] (-) TimerEvent: {}
+[23.979008] (-) TimerEvent: {}
+[24.072255] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__functions.h\n'}
+[24.079161] (-) TimerEvent: {}
+[24.180011] (-) TimerEvent: {}
+[24.281340] (-) TimerEvent: {}
+[24.382215] (-) TimerEvent: {}
+[24.402890] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__struct.h\n'}
+[24.482372] (-) TimerEvent: {}
+[24.583501] (-) TimerEvent: {}
+[24.684464] (-) TimerEvent: {}
+[24.785320] (-) TimerEvent: {}
+[24.786616] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.h\n'}
+[24.885519] (-) TimerEvent: {}
+[24.986845] (-) TimerEvent: {}
+[25.088175] (-) TimerEvent: {}
+[25.189647] (-) TimerEvent: {}
+[25.233783] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__functions.c\n'}
+[25.289829] (-) TimerEvent: {}
+[25.391315] (-) TimerEvent: {}
+[25.492240] (-) TimerEvent: {}
+[25.593628] (-) TimerEvent: {}
+[25.630763] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__functions.h\n'}
+[25.693792] (-) TimerEvent: {}
+[25.794517] (-) TimerEvent: {}
+[25.884269] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__struct.h\n'}
+[25.894672] (-) TimerEvent: {}
+[25.995639] (-) TimerEvent: {}
+[26.096741] (-) TimerEvent: {}
+[26.198340] (-) TimerEvent: {}
+[26.299805] (-) TimerEvent: {}
+[26.320086] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.h\n'}
+[26.399975] (-) TimerEvent: {}
+[26.501618] (-) TimerEvent: {}
+[26.578287] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__functions.c\n'}
+[26.601748] (-) TimerEvent: {}
+[26.702488] (-) TimerEvent: {}
+[26.803778] (-) TimerEvent: {}
+[26.905006] (-) TimerEvent: {}
+[26.914652] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__functions.h\n'}
+[27.005154] (-) TimerEvent: {}
+[27.106634] (-) TimerEvent: {}
+[27.208154] (-) TimerEvent: {}
+[27.290097] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__struct.h\n'}
+[27.308294] (-) TimerEvent: {}
+[27.409243] (-) TimerEvent: {}
+[27.510365] (-) TimerEvent: {}
+[27.611478] (-) TimerEvent: {}
+[27.663974] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.h\n'}
+[27.711609] (-) TimerEvent: {}
+[27.812750] (-) TimerEvent: {}
+[27.914352] (-) TimerEvent: {}
+[28.015429] (-) TimerEvent: {}
+[28.089751] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__functions.c\n'}
+[28.115525] (-) TimerEvent: {}
+[28.216182] (-) TimerEvent: {}
+[28.224002] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__functions.h\n'}
+[28.316412] (-) TimerEvent: {}
+[28.402161] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__struct.h\n'}
+[28.416502] (-) TimerEvent: {}
+[28.517073] (-) TimerEvent: {}
+[28.608894] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.h\n'}
+[28.617155] (-) TimerEvent: {}
+[28.717885] (-) TimerEvent: {}
+[28.819057] (-) TimerEvent: {}
+[28.920417] (-) TimerEvent: {}
+[28.949038] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/driver_state.h\n'}
+[29.020608] (-) TimerEvent: {}
+[29.121839] (-) TimerEvent: {}
+[29.223298] (-) TimerEvent: {}
+[29.322365] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/fault_state.h\n'}
+[29.326109] (-) TimerEvent: {}
+[29.427338] (-) TimerEvent: {}
+[29.528747] (-) TimerEvent: {}
+[29.629863] (-) TimerEvent: {}
+[29.732904] (-) TimerEvent: {}
+[29.777913] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_command.h\n'}
+[29.833030] (-) TimerEvent: {}
+[29.934154] (-) TimerEvent: {}
+[30.035249] (-) TimerEvent: {}
+[30.101951] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_state.h\n'}
+[30.135371] (-) TimerEvent: {}
+[30.236549] (-) TimerEvent: {}
+[30.337795] (-) TimerEvent: {}
+[30.443773] (-) TimerEvent: {}
+[30.455167] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/motor_state.h\n'}
+[30.543957] (-) TimerEvent: {}
+[30.645292] (-) TimerEvent: {}
+[30.746345] (-) TimerEvent: {}
+[30.784532] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/robot_state.h\n'}
+[30.846511] (-) TimerEvent: {}
+[30.947560] (-) TimerEvent: {}
+[31.048394] (-) TimerEvent: {}
+[31.146196] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[31.149613] (-) TimerEvent: {}
+[31.250609] (-) TimerEvent: {}
+[31.351716] (-) TimerEvent: {}
+[31.452693] (-) TimerEvent: {}
+[31.506860] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/library_path.sh\n'}
+[31.552912] (-) TimerEvent: {}
+[31.655040] (-) TimerEvent: {}
+[31.756896] (-) TimerEvent: {}
+[31.826024] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/library_path.dsv\n'}
+[31.857145] (-) TimerEvent: {}
+[31.958241] (-) TimerEvent: {}
+[32.059510] (-) TimerEvent: {}
+[32.160927] (-) TimerEvent: {}
+[32.215897] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_c.so\n'}
+[32.261079] (-) TimerEvent: {}
+[32.362036] (-) TimerEvent: {}
+[32.463523] (-) TimerEvent: {}
+[32.564825] (-) TimerEvent: {}
+[32.665977] (-) TimerEvent: {}
+[32.678889] (scout_mini_msgs) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_c.so" to ""\n'}
+[32.741845] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[32.766076] (-) TimerEvent: {}
+[32.830848] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[32.866209] (-) TimerEvent: {}
+[32.901353] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[32.966353] (-) TimerEvent: {}
+[32.977139] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_fastrtps_c.h\n'}
+[33.066507] (-) TimerEvent: {}
+[33.167840] (-) TimerEvent: {}
+[33.272039] (-) TimerEvent: {}
+[33.373148] (-) TimerEvent: {}
+[33.398074] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_fastrtps_c.h\n'}
+[33.473354] (-) TimerEvent: {}
+[33.574315] (-) TimerEvent: {}
+[33.675609] (-) TimerEvent: {}
+[33.777141] (-) TimerEvent: {}
+[33.806930] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_fastrtps_c.h\n'}
+[33.877334] (-) TimerEvent: {}
+[33.978238] (-) TimerEvent: {}
+[34.079557] (-) TimerEvent: {}
+[34.180909] (-) TimerEvent: {}
+[34.266240] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_fastrtps_c.h\n'}
+[34.281027] (-) TimerEvent: {}
+[34.382300] (-) TimerEvent: {}
+[34.483300] (-) TimerEvent: {}
+[34.584634] (-) TimerEvent: {}
+[34.622019] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h\n'}
+[34.684828] (-) TimerEvent: {}
+[34.786188] (-) TimerEvent: {}
+[34.887213] (-) TimerEvent: {}
+[34.988326] (-) TimerEvent: {}
+[35.070632] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h\n'}
+[35.088370] (-) TimerEvent: {}
+[35.189035] (-) TimerEvent: {}
+[35.290670] (-) TimerEvent: {}
+[35.359505] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[35.390757] (-) TimerEvent: {}
+[35.491773] (-) TimerEvent: {}
+[35.593150] (-) TimerEvent: {}
+[35.694312] (-) TimerEvent: {}
+[35.735542] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[35.794404] (-) TimerEvent: {}
+[35.895668] (-) TimerEvent: {}
+[35.972913] (scout_mini_msgs) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[35.995430] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[35.996981] (-) TimerEvent: {}
+[36.040022] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[36.096772] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[36.098668] (-) TimerEvent: {}
+[36.199440] (-) TimerEvent: {}
+[36.227278] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_introspection_c.h\n'}
+[36.299648] (-) TimerEvent: {}
+[36.400795] (-) TimerEvent: {}
+[36.501801] (-) TimerEvent: {}
+[36.604993] (-) TimerEvent: {}
+[36.614498] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.c\n'}
+[36.705241] (-) TimerEvent: {}
+[36.826225] (-) TimerEvent: {}
+[36.927445] (-) TimerEvent: {}
+[37.029654] (-) TimerEvent: {}
+[37.131467] (-) TimerEvent: {}
+[37.148772] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_introspection_c.h\n'}
+[37.231644] (-) TimerEvent: {}
+[37.332963] (-) TimerEvent: {}
+[37.434176] (-) TimerEvent: {}
+[37.535164] (-) TimerEvent: {}
+[37.587368] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.c\n'}
+[37.635277] (-) TimerEvent: {}
+[37.736528] (-) TimerEvent: {}
+[37.837944] (-) TimerEvent: {}
+[37.939730] (-) TimerEvent: {}
+[38.040870] (-) TimerEvent: {}
+[38.071822] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_introspection_c.h\n'}
+[38.141087] (-) TimerEvent: {}
+[38.242441] (-) TimerEvent: {}
+[38.343386] (-) TimerEvent: {}
+[38.444376] (-) TimerEvent: {}
+[38.518397] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.c\n'}
+[38.544665] (-) TimerEvent: {}
+[38.645666] (-) TimerEvent: {}
+[38.746904] (-) TimerEvent: {}
+[38.848822] (-) TimerEvent: {}
+[38.950206] (-) TimerEvent: {}
+[38.982029] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_introspection_c.h\n'}
+[39.050398] (-) TimerEvent: {}
+[39.151391] (-) TimerEvent: {}
+[39.252285] (-) TimerEvent: {}
+[39.353414] (-) TimerEvent: {}
+[39.360763] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.c\n'}
+[39.453522] (-) TimerEvent: {}
+[39.554876] (-) TimerEvent: {}
+[39.656208] (-) TimerEvent: {}
+[39.757386] (-) TimerEvent: {}
+[39.813230] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_c.h\n'}
+[39.857571] (-) TimerEvent: {}
+[39.958425] (-) TimerEvent: {}
+[40.059590] (-) TimerEvent: {}
+[40.160963] (-) TimerEvent: {}
+[40.222669] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.c\n'}
+[40.261151] (-) TimerEvent: {}
+[40.362234] (-) TimerEvent: {}
+[40.463473] (-) TimerEvent: {}
+[40.567654] (-) TimerEvent: {}
+[40.669083] (-) TimerEvent: {}
+[40.681179] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_c.h\n'}
+[40.769202] (-) TimerEvent: {}
+[40.870020] (-) TimerEvent: {}
+[40.971130] (-) TimerEvent: {}
+[41.071948] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.c\n'}
+[41.073828] (-) TimerEvent: {}
+[41.174638] (-) TimerEvent: {}
+[41.275874] (-) TimerEvent: {}
+[41.376855] (-) TimerEvent: {}
+[41.383574] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[41.477146] (-) TimerEvent: {}
+[41.578238] (-) TimerEvent: {}
+[41.679511] (-) TimerEvent: {}
+[41.721020] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_c.so\n'}
+[41.779771] (-) TimerEvent: {}
+[41.881329] (-) TimerEvent: {}
+[41.982401] (-) TimerEvent: {}
+[42.083423] (-) TimerEvent: {}
+[42.174276] (scout_mini_msgs) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[42.183657] (-) TimerEvent: {}
+[42.251608] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_c.so\n'}
+[42.283796] (-) TimerEvent: {}
+[42.384920] (-) TimerEvent: {}
+[42.485918] (-) TimerEvent: {}
+[42.579807] (scout_mini_msgs) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_c.so" to ""\n'}
+[42.586018] (-) TimerEvent: {}
+[42.627695] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[42.686176] (-) TimerEvent: {}
+[42.701485] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[42.786340] (-) TimerEvent: {}
+[42.834648] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[42.886622] (-) TimerEvent: {}
+[42.988032] (-) TimerEvent: {}
+[43.001365] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__builder.hpp\n'}
+[43.088219] (-) TimerEvent: {}
+[43.190578] (-) TimerEvent: {}
+[43.288892] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__struct.hpp\n'}
+[43.294445] (-) TimerEvent: {}
+[43.395920] (-) TimerEvent: {}
+[43.498004] (-) TimerEvent: {}
+[43.599037] (-) TimerEvent: {}
+[43.700651] (-) TimerEvent: {}
+[43.758917] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__traits.hpp\n'}
+[43.800773] (-) TimerEvent: {}
+[43.901859] (-) TimerEvent: {}
+[44.003108] (-) TimerEvent: {}
+[44.104441] (-) TimerEvent: {}
+[44.171215] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.hpp\n'}
+[44.204553] (-) TimerEvent: {}
+[44.266109] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__builder.hpp\n'}
+[44.304693] (-) TimerEvent: {}
+[44.405572] (-) TimerEvent: {}
+[44.506698] (-) TimerEvent: {}
+[44.607932] (-) TimerEvent: {}
+[44.628137] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__struct.hpp\n'}
+[44.708096] (-) TimerEvent: {}
+[44.809152] (-) TimerEvent: {}
+[44.910073] (-) TimerEvent: {}
+[44.986413] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__traits.hpp\n'}
+[45.010221] (-) TimerEvent: {}
+[45.111916] (-) TimerEvent: {}
+[45.213054] (-) TimerEvent: {}
+[45.313231] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.hpp\n'}
+[45.315045] (-) TimerEvent: {}
+[45.415959] (-) TimerEvent: {}
+[45.516873] (-) TimerEvent: {}
+[45.618249] (-) TimerEvent: {}
+[45.682259] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__builder.hpp\n'}
+[45.718313] (-) TimerEvent: {}
+[45.819234] (-) TimerEvent: {}
+[45.920667] (-) TimerEvent: {}
+[46.022048] (-) TimerEvent: {}
+[46.122930] (-) TimerEvent: {}
+[46.133889] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__struct.hpp\n'}
+[46.223086] (-) TimerEvent: {}
+[46.325516] (-) TimerEvent: {}
+[46.426892] (-) TimerEvent: {}
+[46.527738] (-) TimerEvent: {}
+[46.529645] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__traits.hpp\n'}
+[46.628067] (-) TimerEvent: {}
+[46.729240] (-) TimerEvent: {}
+[46.830386] (-) TimerEvent: {}
+[46.923465] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.hpp\n'}
+[46.930512] (-) TimerEvent: {}
+[47.032013] (-) TimerEvent: {}
+[47.133761] (-) TimerEvent: {}
+[47.235100] (-) TimerEvent: {}
+[47.336319] (-) TimerEvent: {}
+[47.381506] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__builder.hpp\n'}
+[47.436466] (-) TimerEvent: {}
+[47.537360] (-) TimerEvent: {}
+[47.638813] (-) TimerEvent: {}
+[47.739868] (-) TimerEvent: {}
+[47.808941] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__struct.hpp\n'}
+[47.839995] (-) TimerEvent: {}
+[47.941044] (-) TimerEvent: {}
+[48.042163] (-) TimerEvent: {}
+[48.143123] (-) TimerEvent: {}
+[48.174377] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__traits.hpp\n'}
+[48.243311] (-) TimerEvent: {}
+[48.344438] (-) TimerEvent: {}
+[48.445405] (-) TimerEvent: {}
+[48.523736] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.hpp\n'}
+[48.545630] (-) TimerEvent: {}
+[48.646747] (-) TimerEvent: {}
+[48.747877] (-) TimerEvent: {}
+[48.849149] (-) TimerEvent: {}
+[48.880034] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__builder.hpp\n'}
+[48.949338] (-) TimerEvent: {}
+[49.050489] (-) TimerEvent: {}
+[49.084832] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__struct.hpp\n'}
+[49.150688] (-) TimerEvent: {}
+[49.251873] (-) TimerEvent: {}
+[49.352698] (-) TimerEvent: {}
+[49.455020] (-) TimerEvent: {}
+[49.459686] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__traits.hpp\n'}
+[49.555165] (-) TimerEvent: {}
+[49.656277] (-) TimerEvent: {}
+[49.757391] (-) TimerEvent: {}
+[49.849004] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.hpp\n'}
+[49.857540] (-) TimerEvent: {}
+[49.958669] (-) TimerEvent: {}
+[50.059908] (-) TimerEvent: {}
+[50.160910] (-) TimerEvent: {}
+[50.207351] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__builder.hpp\n'}
+[50.261050] (-) TimerEvent: {}
+[50.361919] (-) TimerEvent: {}
+[50.463199] (-) TimerEvent: {}
+[50.507232] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__struct.hpp\n'}
+[50.563321] (-) TimerEvent: {}
+[50.612759] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__traits.hpp\n'}
+[50.663516] (-) TimerEvent: {}
+[50.768523] (-) TimerEvent: {}
+[50.869302] (-) TimerEvent: {}
+[50.922318] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.hpp\n'}
+[50.969415] (-) TimerEvent: {}
+[51.070714] (-) TimerEvent: {}
+[51.171962] (-) TimerEvent: {}
+[51.273085] (-) TimerEvent: {}
+[51.279985] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/driver_state.hpp\n'}
+[51.373327] (-) TimerEvent: {}
+[51.474671] (-) TimerEvent: {}
+[51.575960] (-) TimerEvent: {}
+[51.586277] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/fault_state.hpp\n'}
+[51.676227] (-) TimerEvent: {}
+[51.777393] (-) TimerEvent: {}
+[51.878272] (-) TimerEvent: {}
+[51.903812] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_command.hpp\n'}
+[51.978471] (-) TimerEvent: {}
+[52.079536] (-) TimerEvent: {}
+[52.180428] (-) TimerEvent: {}
+[52.219634] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_state.hpp\n'}
+[52.280607] (-) TimerEvent: {}
+[52.381879] (-) TimerEvent: {}
+[52.482982] (-) TimerEvent: {}
+[52.533367] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/motor_state.hpp\n'}
+[52.583236] (-) TimerEvent: {}
+[52.684324] (-) TimerEvent: {}
+[52.785437] (-) TimerEvent: {}
+[52.876940] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/robot_state.hpp\n'}
+[52.885510] (-) TimerEvent: {}
+[52.986617] (-) TimerEvent: {}
+[53.088159] (-) TimerEvent: {}
+[53.190093] (-) TimerEvent: {}
+[53.319210] (-) TimerEvent: {}
+[53.365898] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[53.419538] (-) TimerEvent: {}
+[53.520791] (-) TimerEvent: {}
+[53.621911] (-) TimerEvent: {}
+[53.688151] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[53.722191] (-) TimerEvent: {}
+[53.795510] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[53.822407] (-) TimerEvent: {}
+[53.923787] (-) TimerEvent: {}
+[53.925572] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[54.024090] (-) TimerEvent: {}
+[54.071021] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/dds_fastrtps\n'}
+[54.124219] (-) TimerEvent: {}
+[54.225312] (-) TimerEvent: {}
+[54.312450] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[54.325548] (-) TimerEvent: {}
+[54.426716] (-) TimerEvent: {}
+[54.528679] (-) TimerEvent: {}
+[54.581181] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[54.628822] (-) TimerEvent: {}
+[54.729711] (-) TimerEvent: {}
+[54.830531] (-) TimerEvent: {}
+[54.840124] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[54.930745] (-) TimerEvent: {}
+[55.032433] (-) TimerEvent: {}
+[55.134113] (-) TimerEvent: {}
+[55.235418] (-) TimerEvent: {}
+[55.316587] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[55.335658] (-) TimerEvent: {}
+[55.437119] (-) TimerEvent: {}
+[55.538023] (-) TimerEvent: {}
+[55.639302] (-) TimerEvent: {}
+[55.721904] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[55.739425] (-) TimerEvent: {}
+[55.840296] (-) TimerEvent: {}
+[55.903705] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[55.940537] (-) TimerEvent: {}
+[56.041759] (-) TimerEvent: {}
+[56.143284] (-) TimerEvent: {}
+[56.244739] (-) TimerEvent: {}
+[56.290500] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[56.344927] (-) TimerEvent: {}
+[56.446236] (-) TimerEvent: {}
+[56.547634] (-) TimerEvent: {}
+[56.614208] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[56.647758] (-) TimerEvent: {}
+[56.749319] (-) TimerEvent: {}
+[56.850369] (-) TimerEvent: {}
+[56.930462] (scout_mini_msgs) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[56.950428] (-) TimerEvent: {}
+[56.970314] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs\n'}
+[57.050619] (-) TimerEvent: {}
+[57.057326] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg\n'}
+[57.150915] (-) TimerEvent: {}
+[57.161956] (scout_mini_msgs) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail\n'}
+[57.251140] (-) TimerEvent: {}
+[57.310242] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[57.351296] (-) TimerEvent: {}
+[57.452705] (-) TimerEvent: {}
+[57.554068] (-) TimerEvent: {}
+[57.655261] (-) TimerEvent: {}
+[57.756603] (-) TimerEvent: {}
+[57.762537] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.cpp\n'}
+[57.856746] (-) TimerEvent: {}
+[57.957558] (-) TimerEvent: {}
+[58.060799] (-) TimerEvent: {}
+[58.161838] (-) TimerEvent: {}
+[58.179697] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[58.261986] (-) TimerEvent: {}
+[58.363327] (-) TimerEvent: {}
+[58.464714] (-) TimerEvent: {}
+[58.565999] (-) TimerEvent: {}
+[58.664143] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.cpp\n'}
+[58.666511] (-) TimerEvent: {}
+[58.767534] (-) TimerEvent: {}
+[58.869097] (-) TimerEvent: {}
+[58.970014] (-) TimerEvent: {}
+[59.056956] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[59.070158] (-) TimerEvent: {}
+[59.171076] (-) TimerEvent: {}
+[59.272359] (-) TimerEvent: {}
+[59.374411] (-) TimerEvent: {}
+[59.475386] (-) TimerEvent: {}
+[59.498974] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.cpp\n'}
+[59.575667] (-) TimerEvent: {}
+[59.687299] (-) TimerEvent: {}
+[59.789611] (-) TimerEvent: {}
+[59.891700] (-) TimerEvent: {}
+[59.971968] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[59.991803] (-) TimerEvent: {}
+[60.092872] (-) TimerEvent: {}
+[60.194184] (-) TimerEvent: {}
+[60.295519] (-) TimerEvent: {}
+[60.378884] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.cpp\n'}
+[60.395585] (-) TimerEvent: {}
+[60.496278] (-) TimerEvent: {}
+[60.597006] (-) TimerEvent: {}
+[60.629814] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[60.697214] (-) TimerEvent: {}
+[60.799123] (-) TimerEvent: {}
+[60.900290] (-) TimerEvent: {}
+[61.001645] (-) TimerEvent: {}
+[61.099311] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.cpp\n'}
+[61.102583] (-) TimerEvent: {}
+[61.203594] (-) TimerEvent: {}
+[61.304763] (-) TimerEvent: {}
+[61.405569] (-) TimerEvent: {}
+[61.506454] (-) TimerEvent: {}
+[61.534674] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[61.606814] (-) TimerEvent: {}
+[61.707867] (-) TimerEvent: {}
+[61.808714] (-) TimerEvent: {}
+[61.813704] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.cpp\n'}
+[61.908786] (-) TimerEvent: {}
+[62.009952] (-) TimerEvent: {}
+[62.110983] (-) TimerEvent: {}
+[62.214994] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[62.220241] (-) TimerEvent: {}
+[62.321277] (-) TimerEvent: {}
+[62.422446] (-) TimerEvent: {}
+[62.514985] (scout_mini_msgs) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[62.522539] (-) TimerEvent: {}
+[62.567868] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_cpp.so\n'}
+[62.622715] (-) TimerEvent: {}
+[62.723739] (-) TimerEvent: {}
+[62.824773] (-) TimerEvent: {}
+[62.906304] (scout_mini_msgs) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[62.924916] (-) TimerEvent: {}
+[62.980454] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/pythonpath.sh\n'}
+[63.025168] (-) TimerEvent: {}
+[63.126435] (-) TimerEvent: {}
+[63.227576] (-) TimerEvent: {}
+[63.238427] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/pythonpath.dsv\n'}
+[63.327751] (-) TimerEvent: {}
+[63.428975] (-) TimerEvent: {}
+[63.475079] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info\n'}
+[63.529119] (-) TimerEvent: {}
+[63.630071] (-) TimerEvent: {}
+[63.639862] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[63.730201] (-) TimerEvent: {}
+[63.831148] (-) TimerEvent: {}
+[63.933512] (-) TimerEvent: {}
+[63.990765] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[64.033672] (-) TimerEvent: {}
+[64.134900] (-) TimerEvent: {}
+[64.236237] (-) TimerEvent: {}
+[64.337550] (-) TimerEvent: {}
+[64.389828] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[64.437687] (-) TimerEvent: {}
+[64.538619] (-) TimerEvent: {}
+[64.640036] (-) TimerEvent: {}
+[64.743434] (-) TimerEvent: {}
+[64.827134] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[64.843530] (-) TimerEvent: {}
+[64.944464] (-) TimerEvent: {}
+[65.045925] (-) TimerEvent: {}
+[65.147078] (-) TimerEvent: {}
+[65.193578] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs\n'}
+[65.247259] (-) TimerEvent: {}
+[65.348485] (-) TimerEvent: {}
+[65.362885] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/libscout_mini_msgs__rosidl_generator_py.so\n'}
+[65.448687] (-) TimerEvent: {}
+[65.549747] (-) TimerEvent: {}
+[65.650830] (-) TimerEvent: {}
+[65.705291] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg\n'}
+[65.750979] (-) TimerEvent: {}
+[65.852383] (-) TimerEvent: {}
+[65.880814] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_driver_state.py\n'}
+[65.952594] (-) TimerEvent: {}
+[66.065419] (-) TimerEvent: {}
+[66.166319] (-) TimerEvent: {}
+[66.227110] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_driver_state_s.c\n'}
+[66.266446] (-) TimerEvent: {}
+[66.367814] (-) TimerEvent: {}
+[66.469348] (-) TimerEvent: {}
+[66.570677] (-) TimerEvent: {}
+[66.619067] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_fault_state.py\n'}
+[66.670824] (-) TimerEvent: {}
+[66.772322] (-) TimerEvent: {}
+[66.874203] (-) TimerEvent: {}
+[66.975637] (-) TimerEvent: {}
+[67.044930] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_fault_state_s.c\n'}
+[67.075770] (-) TimerEvent: {}
+[67.176807] (-) TimerEvent: {}
+[67.278883] (-) TimerEvent: {}
+[67.379914] (-) TimerEvent: {}
+[67.390334] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_command.py\n'}
+[67.480062] (-) TimerEvent: {}
+[67.495216] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_command_s.c\n'}
+[67.580197] (-) TimerEvent: {}
+[67.681066] (-) TimerEvent: {}
+[67.751852] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_state.py\n'}
+[67.781229] (-) TimerEvent: {}
+[67.882331] (-) TimerEvent: {}
+[67.983203] (-) TimerEvent: {}
+[68.085916] (-) TimerEvent: {}
+[68.118179] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_state_s.c\n'}
+[68.186040] (-) TimerEvent: {}
+[68.287056] (-) TimerEvent: {}
+[68.388258] (-) TimerEvent: {}
+[68.477589] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_motor_state.py\n'}
+[68.501656] (-) TimerEvent: {}
+[68.603076] (-) TimerEvent: {}
+[68.703977] (-) TimerEvent: {}
+[68.808049] (-) TimerEvent: {}
+[68.909143] (-) TimerEvent: {}
+[68.959759] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_motor_state_s.c\n'}
+[69.009401] (-) TimerEvent: {}
+[69.110612] (-) TimerEvent: {}
+[69.212129] (-) TimerEvent: {}
+[69.313253] (-) TimerEvent: {}
+[69.409604] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_robot_state.py\n'}
+[69.413405] (-) TimerEvent: {}
+[69.514846] (-) TimerEvent: {}
+[69.616281] (-) TimerEvent: {}
+[69.717404] (-) TimerEvent: {}
+[69.818281] (-) TimerEvent: {}
+[69.831549] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_robot_state_s.c\n'}
+[69.918480] (-) TimerEvent: {}
+[70.019678] (-) TimerEvent: {}
+[70.120697] (-) TimerEvent: {}
+[70.179001] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/__init__.py\n'}
+[70.220831] (-) TimerEvent: {}
+[70.321625] (-) TimerEvent: {}
+[70.422695] (-) TimerEvent: {}
+[70.523921] (-) TimerEvent: {}
+[70.598863] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[70.624049] (-) TimerEvent: {}
+[70.725293] (-) TimerEvent: {}
+[70.827146] (-) TimerEvent: {}
+[70.928362] (-) TimerEvent: {}
+[71.005435] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[71.028515] (-) TimerEvent: {}
+[71.129426] (-) TimerEvent: {}
+[71.230490] (-) TimerEvent: {}
+[71.331624] (-) TimerEvent: {}
+[71.414895] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[71.431720] (-) TimerEvent: {}
+[71.532652] (-) TimerEvent: {}
+[71.633780] (-) TimerEvent: {}
+[71.734927] (-) TimerEvent: {}
+[71.811980] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[71.835072] (-) TimerEvent: {}
+[71.936182] (-) TimerEvent: {}
+[72.036999] (-) TimerEvent: {}
+[72.091103] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[72.137156] (-) TimerEvent: {}
+[72.239152] (-) TimerEvent: {}
+[72.340430] (-) TimerEvent: {}
+[72.424142] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[72.440585] (-) TimerEvent: {}
+[72.541586] (-) TimerEvent: {}
+[72.642348] (-) TimerEvent: {}
+[72.734059] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/__init__.py\n'}
+[72.742584] (-) TimerEvent: {}
+[72.843740] (-) TimerEvent: {}
+[72.945280] (-) TimerEvent: {}
+[73.046497] (-) TimerEvent: {}
+[73.148976] (-) TimerEvent: {}
+[73.249595] (-) TimerEvent: {}
+[73.350174] (-) TimerEvent: {}
+[73.451272] (-) TimerEvent: {}
+[73.552347] (-) TimerEvent: {}
+[73.653697] (-) TimerEvent: {}
+[73.755770] (-) TimerEvent: {}
+[73.857899] (-) TimerEvent: {}
+[73.959128] (-) TimerEvent: {}
+[74.060681] (-) TimerEvent: {}
+[74.161828] (-) TimerEvent: {}
+[74.262730] (-) TimerEvent: {}
+[74.363649] (-) TimerEvent: {}
+[74.464673] (-) TimerEvent: {}
+[74.565720] (-) TimerEvent: {}
+[74.666957] (-) TimerEvent: {}
+[74.767647] (-) TimerEvent: {}
+[74.868961] (-) TimerEvent: {}
+[74.970234] (-) TimerEvent: {}
+[75.071104] (-) TimerEvent: {}
+[75.172743] (-) TimerEvent: {}
+[75.274095] (-) TimerEvent: {}
+[75.375399] (-) TimerEvent: {}
+[75.476082] (scout_mini_msgs) StdoutLine: {'line': b"Listing '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs'...\n"}
+[75.477577] (-) TimerEvent: {}
+[75.478054] (scout_mini_msgs) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/__init__.py'...\n"}
+[75.479586] (scout_mini_msgs) StdoutLine: {'line': b"Listing '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg'...\n"}
+[75.480869] (scout_mini_msgs) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/__init__.py'...\n"}
+[75.482014] (scout_mini_msgs) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_driver_state.py'...\n"}
+[75.483894] (scout_mini_msgs) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_fault_state.py'...\n"}
+[75.486126] (scout_mini_msgs) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_command.py'...\n"}
+[75.490554] (scout_mini_msgs) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_state.py'...\n"}
+[75.494517] (scout_mini_msgs) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_motor_state.py'...\n"}
+[75.496281] (scout_mini_msgs) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_robot_state.py'...\n"}
+[75.577697] (-) TimerEvent: {}
+[75.678527] (-) TimerEvent: {}
+[75.749901] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[75.778619] (-) TimerEvent: {}
+[75.879668] (-) TimerEvent: {}
+[75.980767] (-) TimerEvent: {}
+[76.082195] (-) TimerEvent: {}
+[76.183857] (-) TimerEvent: {}
+[76.285049] (-) TimerEvent: {}
+[76.386189] (-) TimerEvent: {}
+[76.477972] (scout_mini_msgs) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[76.486287] (-) TimerEvent: {}
+[76.587264] (-) TimerEvent: {}
+[76.688480] (-) TimerEvent: {}
+[76.753673] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[76.788577] (-) TimerEvent: {}
+[76.889828] (-) TimerEvent: {}
+[76.991192] (-) TimerEvent: {}
+[77.092304] (-) TimerEvent: {}
+[77.193186] (-) TimerEvent: {}
+[77.294535] (-) TimerEvent: {}
+[77.367770] (scout_mini_msgs) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[77.394689] (-) TimerEvent: {}
+[77.495780] (-) TimerEvent: {}
+[77.596721] (-) TimerEvent: {}
+[77.658506] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[77.696833] (-) TimerEvent: {}
+[77.797956] (-) TimerEvent: {}
+[77.899056] (-) TimerEvent: {}
+[78.000356] (-) TimerEvent: {}
+[78.101324] (-) TimerEvent: {}
+[78.202415] (-) TimerEvent: {}
+[78.246328] (scout_mini_msgs) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[78.302712] (-) TimerEvent: {}
+[78.344156] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_py.so\n'}
+[78.402857] (-) TimerEvent: {}
+[78.504196] (-) TimerEvent: {}
+[78.605324] (-) TimerEvent: {}
+[78.706862] (-) TimerEvent: {}
+[78.808243] (-) TimerEvent: {}
+[78.820993] (scout_mini_msgs) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_py.so" to ""\n'}
+[78.908437] (-) TimerEvent: {}
+[78.987052] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/DriverState.idl\n'}
+[79.008629] (-) TimerEvent: {}
+[79.109980] (-) TimerEvent: {}
+[79.211345] (-) TimerEvent: {}
+[79.312509] (-) TimerEvent: {}
+[79.341607] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/FaultState.idl\n'}
+[79.412761] (-) TimerEvent: {}
+[79.513525] (-) TimerEvent: {}
+[79.572265] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightCommand.idl\n'}
+[79.613646] (-) TimerEvent: {}
+[79.714492] (-) TimerEvent: {}
+[79.815446] (-) TimerEvent: {}
+[79.893311] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightState.idl\n'}
+[79.915612] (-) TimerEvent: {}
+[80.016805] (-) TimerEvent: {}
+[80.117598] (-) TimerEvent: {}
+[80.218541] (-) TimerEvent: {}
+[80.246462] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/MotorState.idl\n'}
+[80.318678] (-) TimerEvent: {}
+[80.419686] (-) TimerEvent: {}
+[80.520633] (-) TimerEvent: {}
+[80.544742] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/RobotState.idl\n'}
+[80.620773] (-) TimerEvent: {}
+[80.721880] (-) TimerEvent: {}
+[80.822834] (-) TimerEvent: {}
+[80.870502] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/DriverState.msg\n'}
+[80.923093] (-) TimerEvent: {}
+[81.024250] (-) TimerEvent: {}
+[81.125153] (-) TimerEvent: {}
+[81.189306] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/FaultState.msg\n'}
+[81.225284] (-) TimerEvent: {}
+[81.326136] (-) TimerEvent: {}
+[81.427175] (-) TimerEvent: {}
+[81.528323] (-) TimerEvent: {}
+[81.532164] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightCommand.msg\n'}
+[81.628628] (-) TimerEvent: {}
+[81.729913] (-) TimerEvent: {}
+[81.830881] (-) TimerEvent: {}
+[81.832663] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightState.msg\n'}
+[81.931061] (-) TimerEvent: {}
+[82.032101] (-) TimerEvent: {}
+[82.133387] (-) TimerEvent: {}
+[82.167569] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/MotorState.msg\n'}
+[82.233516] (-) TimerEvent: {}
+[82.334943] (-) TimerEvent: {}
+[82.435960] (-) TimerEvent: {}
+[82.468958] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/RobotState.msg\n'}
+[82.536122] (-) TimerEvent: {}
+[82.637125] (-) TimerEvent: {}
+[82.738690] (-) TimerEvent: {}
+[82.840676] (-) TimerEvent: {}
+[82.879716] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/package_run_dependencies/scout_mini_msgs\n'}
+[82.940732] (-) TimerEvent: {}
+[83.041527] (-) TimerEvent: {}
+[83.142667] (-) TimerEvent: {}
+[83.245040] (-) TimerEvent: {}
+[83.353580] (-) TimerEvent: {}
+[83.408974] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/parent_prefix_path/scout_mini_msgs\n'}
+[83.453895] (-) TimerEvent: {}
+[83.555326] (-) TimerEvent: {}
+[83.656502] (-) TimerEvent: {}
+[83.757697] (-) TimerEvent: {}
+[83.760192] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/ament_prefix_path.sh\n'}
+[83.857924] (-) TimerEvent: {}
+[83.960907] (-) TimerEvent: {}
+[84.063493] (-) TimerEvent: {}
+[84.165246] (-) TimerEvent: {}
+[84.167189] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/ament_prefix_path.dsv\n'}
+[84.265459] (-) TimerEvent: {}
+[84.367102] (-) TimerEvent: {}
+[84.468761] (-) TimerEvent: {}
+[84.569914] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/path.sh\n'}
+[84.572962] (-) TimerEvent: {}
+[84.674149] (-) TimerEvent: {}
+[84.775399] (-) TimerEvent: {}
+[84.877120] (-) TimerEvent: {}
+[84.978298] (-) TimerEvent: {}
+[85.082056] (-) TimerEvent: {}
+[85.189046] (-) TimerEvent: {}
+[85.247325] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/path.dsv\n'}
+[85.289454] (-) TimerEvent: {}
+[85.392840] (-) TimerEvent: {}
+[85.496362] (-) TimerEvent: {}
+[85.598589] (-) TimerEvent: {}
+[85.701381] (-) TimerEvent: {}
+[85.805119] (-) TimerEvent: {}
+[85.907042] (-) TimerEvent: {}
+[85.972247] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.bash\n'}
+[86.007224] (-) TimerEvent: {}
+[86.108934] (-) TimerEvent: {}
+[86.210923] (-) TimerEvent: {}
+[86.313605] (-) TimerEvent: {}
+[86.416432] (-) TimerEvent: {}
+[86.510470] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.sh\n'}
+[86.516601] (-) TimerEvent: {}
+[86.617823] (-) TimerEvent: {}
+[86.719393] (-) TimerEvent: {}
+[86.821824] (-) TimerEvent: {}
+[86.923442] (-) TimerEvent: {}
+[86.936314] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.zsh\n'}
+[87.023804] (-) TimerEvent: {}
+[87.125372] (-) TimerEvent: {}
+[87.226526] (-) TimerEvent: {}
+[87.265965] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.dsv\n'}
+[87.326767] (-) TimerEvent: {}
+[87.428066] (-) TimerEvent: {}
+[87.529668] (-) TimerEvent: {}
+[87.631724] (-) TimerEvent: {}
+[87.651900] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.dsv\n'}
+[87.731865] (-) TimerEvent: {}
+[87.833052] (-) TimerEvent: {}
+[87.934268] (-) TimerEvent: {}
+[87.939804] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/packages/scout_mini_msgs\n'}
+[88.034414] (-) TimerEvent: {}
+[88.135633] (-) TimerEvent: {}
+[88.236861] (-) TimerEvent: {}
+[88.321716] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_cExport.cmake\n'}
+[88.336979] (-) TimerEvent: {}
+[88.437678] (-) TimerEvent: {}
+[88.538490] (-) TimerEvent: {}
+[88.557624] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[88.638690] (-) TimerEvent: {}
+[88.739664] (-) TimerEvent: {}
+[88.829210] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[88.839747] (-) TimerEvent: {}
+[88.940457] (-) TimerEvent: {}
+[89.041742] (-) TimerEvent: {}
+[89.142564] (-) TimerEvent: {}
+[89.149343] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[89.242775] (-) TimerEvent: {}
+[89.343914] (-) TimerEvent: {}
+[89.444942] (-) TimerEvent: {}
+[89.506451] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[89.545098] (-) TimerEvent: {}
+[89.646045] (-) TimerEvent: {}
+[89.747213] (-) TimerEvent: {}
+[89.816083] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[89.847354] (-) TimerEvent: {}
+[89.948240] (-) TimerEvent: {}
+[90.049403] (-) TimerEvent: {}
+[90.151495] (-) TimerEvent: {}
+[90.165810] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cExport.cmake\n'}
+[90.251624] (-) TimerEvent: {}
+[90.352714] (-) TimerEvent: {}
+[90.453795] (-) TimerEvent: {}
+[90.535895] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[90.553971] (-) TimerEvent: {}
+[90.655160] (-) TimerEvent: {}
+[90.756567] (-) TimerEvent: {}
+[90.855863] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_cppExport.cmake\n'}
+[90.857780] (-) TimerEvent: {}
+[90.958621] (-) TimerEvent: {}
+[91.059769] (-) TimerEvent: {}
+[91.160979] (-) TimerEvent: {}
+[91.194957] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[91.261154] (-) TimerEvent: {}
+[91.363036] (-) TimerEvent: {}
+[91.464060] (-) TimerEvent: {}
+[91.565081] (-) TimerEvent: {}
+[91.577942] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[91.665257] (-) TimerEvent: {}
+[91.766395] (-) TimerEvent: {}
+[91.868170] (-) TimerEvent: {}
+[91.951591] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[91.968263] (-) TimerEvent: {}
+[92.069082] (-) TimerEvent: {}
+[92.149912] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[92.176958] (-) TimerEvent: {}
+[92.278713] (-) TimerEvent: {}
+[92.379860] (-) TimerEvent: {}
+[92.480891] (-) TimerEvent: {}
+[92.493441] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[92.581038] (-) TimerEvent: {}
+[92.682065] (-) TimerEvent: {}
+[92.707724] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[92.782193] (-) TimerEvent: {}
+[92.883249] (-) TimerEvent: {}
+[92.980000] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_pyExport.cmake\n'}
+[92.983379] (-) TimerEvent: {}
+[93.084212] (-) TimerEvent: {}
+[93.185230] (-) TimerEvent: {}
+[93.286133] (-) TimerEvent: {}
+[93.326939] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[93.386294] (-) TimerEvent: {}
+[93.487285] (-) TimerEvent: {}
+[93.548060] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[93.587388] (-) TimerEvent: {}
+[93.688519] (-) TimerEvent: {}
+[93.790133] (-) TimerEvent: {}
+[93.825787] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[93.890288] (-) TimerEvent: {}
+[93.991430] (-) TimerEvent: {}
+[94.045502] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[94.091548] (-) TimerEvent: {}
+[94.192642] (-) TimerEvent: {}
+[94.284027] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[94.292832] (-) TimerEvent: {}
+[94.394160] (-) TimerEvent: {}
+[94.495505] (-) TimerEvent: {}
+[94.534431] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[94.595775] (-) TimerEvent: {}
+[94.696990] (-) TimerEvent: {}
+[94.770160] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[94.797180] (-) TimerEvent: {}
+[94.898221] (-) TimerEvent: {}
+[94.999311] (-) TimerEvent: {}
+[95.003705] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[95.099469] (-) TimerEvent: {}
+[95.200749] (-) TimerEvent: {}
+[95.279965] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgsConfig.cmake\n'}
+[95.300949] (-) TimerEvent: {}
+[95.402165] (-) TimerEvent: {}
+[95.503310] (-) TimerEvent: {}
+[95.506985] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgsConfig-version.cmake\n'}
+[95.603547] (-) TimerEvent: {}
+[95.705131] (-) TimerEvent: {}
+[95.792871] (scout_mini_msgs) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.xml\n'}
+[95.805379] (-) TimerEvent: {}
+[95.906829] (-) TimerEvent: {}
+[95.985247] (scout_mini_msgs) CommandEnded: {'returncode': 0}
+[96.020450] (-) TimerEvent: {}
+[96.121635] (-) TimerEvent: {}
+[96.223271] (-) TimerEvent: {}
+[96.324947] (-) TimerEvent: {}
+[96.426018] (-) TimerEvent: {}
+[96.527296] (-) TimerEvent: {}
+[96.628327] (-) TimerEvent: {}
+[96.729505] (-) TimerEvent: {}
+[96.830707] (-) TimerEvent: {}
+[96.932418] (-) TimerEvent: {}
+[97.035149] (-) TimerEvent: {}
+[97.137195] (-) TimerEvent: {}
+[97.238498] (-) TimerEvent: {}
+[97.340109] (-) TimerEvent: {}
+[97.441234] (-) TimerEvent: {}
+[97.542178] (-) TimerEvent: {}
+[97.643356] (-) TimerEvent: {}
+[97.744436] (-) TimerEvent: {}
+[97.846218] (-) TimerEvent: {}
+[97.947457] (-) TimerEvent: {}
+[98.048645] (-) TimerEvent: {}
+[98.149676] (-) TimerEvent: {}
+[98.251071] (-) TimerEvent: {}
+[98.352961] (-) TimerEvent: {}
+[98.454153] (-) TimerEvent: {}
+[98.554882] (-) TimerEvent: {}
+[98.655960] (-) TimerEvent: {}
+[98.756860] (-) TimerEvent: {}
+[98.858391] (-) TimerEvent: {}
+[98.959540] (-) TimerEvent: {}
+[99.060758] (-) TimerEvent: {}
+[99.161758] (-) TimerEvent: {}
+[99.262686] (-) TimerEvent: {}
+[99.363545] (-) TimerEvent: {}
+[99.464926] (-) TimerEvent: {}
+[99.565970] (-) TimerEvent: {}
+[99.667106] (-) TimerEvent: {}
+[99.768062] (-) TimerEvent: {}
+[99.869582] (-) TimerEvent: {}
+[99.970940] (-) TimerEvent: {}
+[100.072113] (-) TimerEvent: {}
+[100.173351] (-) TimerEvent: {}
+[100.274384] (-) TimerEvent: {}
+[100.376235] (-) TimerEvent: {}
+[100.477183] (-) TimerEvent: {}
+[100.578300] (-) TimerEvent: {}
+[100.679275] (-) TimerEvent: {}
+[100.780481] (-) TimerEvent: {}
+[100.881932] (-) TimerEvent: {}
+[100.982975] (-) TimerEvent: {}
+[101.084022] (-) TimerEvent: {}
+[101.184893] (-) TimerEvent: {}
+[101.252740] (scout_mini_msgs) JobEnded: {'identifier': 'scout_mini_msgs', 'rc': 0}
+[101.290425] (-) TimerEvent: {}
+[101.291890] (-) EventReactorShutdown: {}

@@ -1,0 +1,36 @@
+[0.271s] Invoking command in '/apollo/ros_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_base -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_base
+[0.886s] -- The C compiler identification is GNU 11.4.0
+[1.394s] -- The CXX compiler identification is GNU 11.4.0
+[1.520s] -- Detecting C compiler ABI info
+[3.090s] -- Detecting C compiler ABI info - done
+[3.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.173s] -- Detecting C compile features
+[3.177s] -- Detecting C compile features - done
+[3.428s] -- Detecting CXX compiler ABI info
+[5.821s] -- Detecting CXX compiler ABI info - done
+[5.918s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.924s] -- Detecting CXX compile features
+[5.932s] -- Detecting CXX compile features - done
+[6.140s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.613s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.147s] -- Found ros2_control: 2.48.0 (/opt/ros/humble/share/ros2_control/cmake)
+[7.156s] -- Found ros2_controllers: 2.41.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[7.168s] -- Found twist_mux: 4.3.0 (/opt/ros/humble/share/twist_mux/cmake)
+[7.357s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.372s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.401s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.607s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.618s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.085s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.247s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.400s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.492s] -- Looking for pthread.h
+[11.001s] -- Looking for pthread.h - found
+[11.054s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.928s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.946s] -- Found Threads: TRUE  
+[15.975s] -- Configuring done
+[17.317s] -- Generating done
+[18.242s] -- Build files have been written to: /apollo/ros_ws/build/scout_mini_base
